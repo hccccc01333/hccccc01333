@@ -50,6 +50,17 @@ Data cleaning  →  Exploratory analysis  →  Statistical modeling  →  Machin
 
 Projects and notes will be added as I build them.
 
+## Achievements
+
+<a href="https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction">
+  <img src="https://img.shields.io/badge/Kaggle-Bronze%20Medal-CD7F32?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Bronze Medal" />
+</a>
+
+🥉 **ROGII — Wellbore Geology Prediction**  
+Ranked **487 / 6,125 teams** in a Kaggle code competition.
+
+🔗 [View Kaggle competition](https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction) · [Kaggle profile: afterrain42](https://www.kaggle.com/afterrain42)
+
 ## Contribution animation
 
 <p align="center">
