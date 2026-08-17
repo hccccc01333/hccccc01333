@@ -1,0 +1,29 @@
+name: Update contribution animation
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: hccccc01333
+          outputs: |
+            generated/github-snake.svg
+            generated/github-snake-dark.svg?palette=github-dark
+            generated/rainfun-snake.gif?color_snake=%2361dafb&color_dots=%23dbeafe,%2393c5fd,%2360a5fa,%232563eb,%231d4ed8&color_background=%2307111f
+
+      - name: Commit generated files
+        uses: EndBug/add-and-commit@v10
+        with:
+          add: generated/
+          message: "Update contribution animation"
+          default_author: github_actions
