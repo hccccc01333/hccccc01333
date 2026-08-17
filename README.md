@@ -34,8 +34,8 @@
 ## GitHub data
 
 <p align="center">
-  <img height="165" src="https://raw.githubusercontent.com/hccccc01333/hccccc01333/main/generated/stats.svg" alt="Rainfun's GitHub stats" />
-  <img height="165" src="https://raw.githubusercontent.com/hccccc01333/hccccc01333/main/generated/top-langs.svg" alt="Rainfun's top languages" />
+  <img height="165" src="./generated/stats.svg" alt="Rainfun's GitHub stats" />
+  <img height="165" src="./generated/top-langs.svg" alt="Rainfun's top languages" />
 </p>
 
 <p align="center">
@@ -54,14 +54,14 @@ Projects and notes will be added as I build them.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hccccc01333/hccccc01333/main/generated/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hccccc01333/hccccc01333/main/generated/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/hccccc01333/hccccc01333/main/generated/github-snake.svg" alt="Contribution snake" />
+    <source media="(prefers-color-scheme: dark)" srcset="./generated/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./generated/github-snake.svg" />
+    <img src="./generated/github-snake.svg" alt="Contribution snake" />
   </picture>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hccccc01333/hccccc01333/main/generated/rainfun-snake.gif" alt="Animated contribution snake" />
+  <img src="./generated/rainfun-snake.gif" alt="Animated contribution snake" />
 </p>
 
 <div align="center">
