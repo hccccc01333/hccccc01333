@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:07111f,100:61dafb&height=190&section=header&text=RAIN%20FUN&fontColor=e6f0ff&fontSize=52&fontAlignY=35&animation=fadeIn" alt="Rainfun banner" />
+  <img src="./assets/neon-lab-banner.svg" alt="Rainfun Data Science Lab" width="100%" />
 </p>
 
 <div align="center">
@@ -26,6 +26,14 @@
 - Python / SQL
 - 统计建模与机器学习
 - 可复现的实验记录
+
+<table>
+  <tr>
+    <td>⚡ <b>FOCUS</b><br />Data analysis · ML</td>
+    <td>🧪 <b>MODE</b><br />Build in public</td>
+    <td>🟢 <b>STATUS</b><br />Learning & shipping</td>
+  </tr>
+</table>
 
 ## Tech stack
 
@@ -55,6 +63,35 @@ Data cleaning  →  Exploratory analysis  →  Statistical modeling  →  Machin
 ```
 
 Projects and notes will be added as I build them.
+
+## Selected work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⛏️ ROGII Wellbore Geology</h3>
+      <p>Kaggle 井筒地质预测竞赛方案，铜牌，排名 487 / 6125。</p>
+      <a href="https://github.com/hccccc01333/rogii-487th-place-solution">View repository ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📊 KPLdata</h3>
+      <p>实时胜率预测、赛程采集、复盘分析与 AI Agent 数据建模。</p>
+      <a href="https://github.com/hccccc01333/KPLdata">View repository ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📈 Power BI Retail Analysis</h3>
+      <p>围绕零售经营数据的星型模型、同比环比、复购与异常预警分析。</p>
+      <a href="https://github.com/hccccc01333/powerbi-retail-analysis">View repository ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧮 DSH Excel Chat</h3>
+      <p>通过对话创建、编辑、修复和验证电子表格的 AI 工具实践。</p>
+      <a href="https://github.com/hccccc01333/dsh-excel-chat">View repository ↗</a>
+    </td>
+  </tr>
+</table>
 
 ## Achievements
 

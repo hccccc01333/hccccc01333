@@ -1,0 +1,75 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rainfun Data Science Lab</title>
+  <desc id="desc">A dark neon data science laboratory banner with a glowing network and animated scan line.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050B16"/>
+      <stop offset="0.55" stop-color="#0B1930"/>
+      <stop offset="1" stop-color="#14102C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="110" y1="40" x2="1090" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB"/>
+      <stop offset="0.5" stop-color="#8B7CFF"/>
+      <stop offset="1" stop-color="#FF6BD6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(920 110) rotate(130) scale(240 330)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAFB" stop-opacity="0.27"/>
+      <stop offset="1" stop-color="#61DAFB" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#8DBDFF" stroke-opacity="0.1"/>
+    </pattern>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .scan { animation: scan 5s ease-in-out infinite; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: 920px 150px; }
+      @keyframes scan { 0%, 100% { transform: translateY(-70px); opacity: 0; } 18%, 82% { opacity: .7; } 50% { transform: translateY(100px); opacity: .25; } }
+      @keyframes pulse { 0%, 100% { opacity: .5; transform: scale(.92); } 50% { opacity: 1; transform: scale(1.08); } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+  <rect width="1200" height="300" rx="22" fill="url(#glow)"/>
+  <path d="M0 270C220 225 360 290 550 246C750 201 910 242 1200 188" stroke="url(#accent)" stroke-opacity="0.3"/>
+
+  <g opacity="0.78" filter="url(#softGlow)">
+    <path d="M785 75L850 120L934 68L1018 128L1092 82" stroke="url(#accent)" stroke-width="2"/>
+    <path d="M850 120L892 195L1005 178L1018 128" stroke="#61DAFB" stroke-opacity="0.6"/>
+    <circle cx="785" cy="75" r="5" fill="#61DAFB"/>
+    <circle cx="850" cy="120" r="5" fill="#8B7CFF"/>
+    <circle cx="934" cy="68" r="5" fill="#FF6BD6"/>
+    <circle cx="1018" cy="128" r="5" fill="#61DAFB"/>
+    <circle cx="1092" cy="82" r="5" fill="#8B7CFF"/>
+    <circle cx="892" cy="195" r="5" fill="#61DAFB"/>
+    <circle cx="1005" cy="178" r="5" fill="#FF6BD6"/>
+  </g>
+
+  <g class="pulse" filter="url(#softGlow)">
+    <circle cx="920" cy="150" r="46" stroke="url(#accent)" stroke-opacity="0.65"/>
+    <circle cx="920" cy="150" r="25" fill="#61DAFB" fill-opacity="0.12" stroke="#61DAFB"/>
+    <circle cx="920" cy="150" r="8" fill="#E6F0FF"/>
+  </g>
+  <path class="scan" d="M730 150H1110" stroke="#61DAFB" stroke-width="2" filter="url(#softGlow)"/>
+
+  <g transform="translate(74 68)">
+    <text class="mono" fill="#61DAFB" font-size="13" letter-spacing="3">DATA SCIENCE / PERSONAL LAB</text>
+    <text fill="#E6F0FF" font-size="58" font-weight="800" letter-spacing="-2">RAIN</text>
+    <text x="166" fill="url(#accent)" font-size="58" font-weight="800" letter-spacing="-2">FUN</text>
+    <rect y="92" width="410" height="1" fill="url(#accent)" opacity="0.7"/>
+    <text y="126" class="mono" fill="#8EA4BD" font-size="14">turning data into insight_</text>
+    <text y="168" class="mono" fill="#61DAFB" font-size="12" letter-spacing="2">PYTHON  //  SQL  //  ML  //  KAGGLE</text>
+  </g>
+
+  <g class="mono" fill="#8EA4BD" font-size="10" opacity="0.8">
+    <text x="76" y="252">SYS.STATUS: ONLINE</text>
+    <text x="1010" y="252">BUILD: 0x61DAFB</text>
+  </g>
+</svg>
