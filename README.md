@@ -34,8 +34,8 @@
 ## GitHub data
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hccccc01333&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true" alt="Rainfun's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hccccc01333&layout=compact&theme=transparent&hide_border=true&langs_count=6" alt="Rainfun's top languages" />
+  <img height="165" src="https://raw.githubusercontent.com/hccccc01333/hccccc01333/main/generated/stats.svg" alt="Rainfun's GitHub stats" />
+  <img height="165" src="https://raw.githubusercontent.com/hccccc01333/hccccc01333/main/generated/top-langs.svg" alt="Rainfun's top languages" />
 </p>
 
 <p align="center">
