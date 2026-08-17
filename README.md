@@ -1,8 +1,14 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:07111f,100:61dafb&height=190&section=header&text=RAIN%20FUN&fontColor=e6f0ff&fontSize=52&fontAlignY=35&animation=fadeIn" alt="Rainfun banner" />
+</p>
+
 <div align="center">
 
-# Rainfun 👋
+<h1>Rainfun 👋</h1>
 
-### Data Science Learner · Exploring Python, SQL & Machine Learning
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&size=21&pause=900&color=61DAFB&center=true&vCenter=true&width=680&height=55&lines=Data+Science+Learner;Turning+data+into+insight;Python+%7C+SQL+%7C+Machine+Learning" alt="Typing SVG" />
+</a>
 
 [![Website](https://img.shields.io/badge/Website-61DAFB?style=flat-square&logo=googlechrome&logoColor=07111f)](https://hccccc01333.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-hccccc01333-181717?style=flat-square&logo=github)](https://github.com/hccccc01333)
@@ -80,3 +86,7 @@ Ranked **487 / 6,125 teams** in a Kaggle code competition.
 🌐 [Visit my personal website](https://hccccc01333.github.io/)
 
 </div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:61dafb,100:07111f&height=100&section=footer" alt="Footer divider" />
+</p>
