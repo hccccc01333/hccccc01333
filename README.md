@@ -1,51 +1,122 @@
 <p align="center">
-  <img src="./assets/neon-lab-banner.svg" alt="Rainfun Data Science Lab" width="100%" />
+  <img src="./assets/neon-lab-banner.svg" alt="Rainfun · Sword and Sorcery" width="100%" />
 </p>
 
 <div align="center">
 
-<h1>Rainfun 👋</h1>
+# Rainfun · Data Science Adventurer
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&size=21&pause=900&color=61DAFB&center=true&vCenter=true&width=680&height=55&lines=Data+Science+Learner;Turning+data+into+insight;Python+%7C+SQL+%7C+Machine+Learning" alt="Typing SVG" />
-</a>
+用 Python、SQL 与机器学习，把问题拆开、验证，再变成可复现的结论。
 
-[![Website](https://img.shields.io/badge/Website-61DAFB?style=flat-square&logo=googlechrome&logoColor=07111f)](https://hccccc01333.github.io/)
-[![GitHub](https://img.shields.io/badge/GitHub-hccccc01333-181717?style=flat-square&logo=github)](https://github.com/hccccc01333)
-[![Profile Views](https://komarev.com/ghpvc/?username=hccccc01333&color=61dafb&style=flat-square&label=PROFILE+VIEWS)](https://github.com/hccccc01333)
+[![Website](https://img.shields.io/badge/Website-6B315F?style=flat-square&logo=googlechrome&logoColor=FFF4D0)](https://hccccc01333.github.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-hccccc01333-17162D?style=flat-square&logo=github&logoColor=FFF4D0)](https://github.com/hccccc01333)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Bronze-CD7F32?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/afterrain42)
 
 </div>
 
-## About me
+<p align="center">
+  <sub>✦ RAINFUN'S FIELD NOTES · DATA · EXPERIMENTS · BUILDING</sub>
+</p>
 
-我正在学习和实践数据科学，持续探索如何用数据理解问题、发现规律，并把分析结果转化为清晰、可复现的结论。
-
-目前关注：
-
-- 数据分析与可视化
-- Python / SQL
-- 统计建模与机器学习
-- 可复现的实验记录
+## 冒险者档案
 
 <table>
   <tr>
-    <td>⚡ <b>FOCUS</b><br />Data analysis · ML</td>
-    <td>🧪 <b>MODE</b><br />Build in public</td>
-    <td>🟢 <b>STATUS</b><br />Learning & shipping</td>
+    <td width="25%"><b>职业</b><br />Data Science Learner</td>
+    <td width="25%"><b>主属性</b><br />分析 · 建模 · 可视化</td>
+    <td width="25%"><b>当前任务</b><br />构建可复现的分析作品</td>
+    <td width="25%"><b>战绩</b><br />Kaggle 铜牌 · 487 / 6125</td>
   </tr>
 </table>
 
-## Tech stack
+> 我关注的不只是“模型能不能跑”，也关注数据从哪里来、结论是否可信，以及结果能不能被别人复现和使用。
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-</p>
+## 当前主线
 
-## GitHub data
+```text
+问题定义  →  数据清理  →  探索与可视化  →  建模验证  →  解释与交付
+```
+
+| 方向 | 我正在积累的能力 |
+| --- | --- |
+| 数据分析 | 缺失值、异常值、特征关系、分组对比与业务指标拆解 |
+| 机器学习 | 特征工程、交叉验证、模型比较、误差分析与结果解释 |
+| 数据产品 | 把脚本、Notebook 和实验过程整理成可复用的小工具 |
+
+## 能力树
+
+<table>
+  <tr>
+    <td valign="top" width="33%">
+      <h3>⌁ 观测</h3>
+      <p>Python · SQL · Pandas<br />数据清洗 · EDA · 指标分析</p>
+    </td>
+    <td valign="top" width="33%">
+      <h3>✧ 施法</h3>
+      <p>scikit-learn · Jupyter<br />特征工程 · 预测建模 · 评估</p>
+    </td>
+    <td valign="top" width="33%">
+      <h3>⚔ 交付</h3>
+      <p>可视化 · Power BI · Git<br />实验记录 · 文档 · 复现</p>
+    </td>
+  </tr>
+</table>
+
+## 作品任务
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>⚔ ROGII · 井筒地质预测</h3>
+      <p>从数据探索、特征构造到模型验证的完整竞赛实践。</p>
+      <p><b>结果：</b>Kaggle 铜牌，487 / 6,125 队伍，Top 8%。</p>
+      <a href="https://github.com/hccccc01333/rogii-487th-place-solution">查看项目 ↗</a>
+    </td>
+    <td valign="top" width="50%">
+      <h3>✧ KPLdata · 比赛数据实验室</h3>
+      <p>围绕赛程采集、实时胜率预测与复盘分析搭建的数据项目。</p>
+      <p><b>关键词：</b>数据管道 · 预测 · 可视化 · AI Agent</p>
+      <a href="https://github.com/hccccc01333/KPLdata">查看项目 ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>⌘ DSH Excel Chat · 表格智能操作</h3>
+      <p>通过对话创建、编辑、修复和验证 Excel，关注自动化过程中的可靠性。</p>
+      <p><b>关键词：</b>代理评估 · 结构化编辑 · 自动验证</p>
+      <a href="https://github.com/hccccc01333/dsh-excel-chat">查看项目 ↗</a>
+    </td>
+    <td valign="top" width="50%">
+      <h3>◈ Power BI · 零售经营分析</h3>
+      <p>从星型模型到经营看板，练习把原始数据转化为可读的决策信息。</p>
+      <p><b>关键词：</b>数据建模 · 同比环比 · 复购 · 异常识别</p>
+      <a href="https://github.com/hccccc01333/powerbi-retail-analysis">查看项目 ↗</a>
+    </td>
+  </tr>
+</table>
+
+## Kaggle 战绩
+
+<table>
+  <tr>
+    <td width="90" align="center">🥉<br /><sub>BRONZE</sub></td>
+    <td>
+      <b>ROGII - Wellbore Geology Prediction</b><br />
+      487 / 6,125 teams · Code Competition · Top 8%
+    </td>
+    <td align="right"><a href="https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction">查看比赛 ↗</a></td>
+  </tr>
+</table>
+
+## 学习进度
+
+| 已建立 | 正在强化 | 下一阶段 |
+| --- | --- | --- |
+| Python / SQL 基础、数据清洗、Notebook 实验 | 统计建模、特征工程、模型解释 | 更完整的数据产品与端到端部署 |
+
+我的学习笔记会保存在私有仓库中，公开主页只展示已经整理成作品的内容。
+
+## 公会记录
 
 <p align="center">
   <img height="165" src="./generated/stats.svg" alt="Rainfun's GitHub stats" />
@@ -56,63 +127,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=hccccc01333&theme=github-compact&hide_border=true&custom_title=Rainfun%27s%20Activity%20Graph" alt="Rainfun's activity graph" />
 </p>
 
-## Learning roadmap
-
-```text
-Data cleaning  →  Exploratory analysis  →  Statistical modeling  →  Machine learning
-```
-
-Projects and notes will be added as I build them.
-
-## Selected work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⛏️ ROGII Wellbore Geology</h3>
-      <p>Kaggle 井筒地质预测竞赛方案，铜牌，排名 487 / 6125。</p>
-      <a href="https://github.com/hccccc01333/rogii-487th-place-solution">View repository ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📊 KPLdata</h3>
-      <p>实时胜率预测、赛程采集、复盘分析与 AI Agent 数据建模。</p>
-      <a href="https://github.com/hccccc01333/KPLdata">View repository ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📈 Power BI Retail Analysis</h3>
-      <p>围绕零售经营数据的星型模型、同比环比、复购与异常预警分析。</p>
-      <a href="https://github.com/hccccc01333/powerbi-retail-analysis">View repository ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧮 DSH Excel Chat</h3>
-      <p>通过对话创建、编辑、修复和验证电子表格的 AI 工具实践。</p>
-      <a href="https://github.com/hccccc01333/dsh-excel-chat">View repository ↗</a>
-    </td>
-  </tr>
-</table>
-
-## Achievements
-
-<a href="https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction">
-  <img src="https://img.shields.io/badge/Kaggle-Bronze%20Medal-CD7F32?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Bronze Medal" />
-</a>
-
-🥉 **ROGII — Wellbore Geology Prediction**  
-Ranked **487 / 6,125 teams** in a Kaggle code competition.
-
-🔗 [View Kaggle competition](https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction) · [Kaggle profile: afterrain42](https://www.kaggle.com/afterrain42)
-
-## Contribution animation
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./generated/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./generated/github-snake.svg" />
-    <img src="./generated/github-snake.svg" alt="Contribution snake" />
-  </picture>
-</p>
+## 贡献记录
 
 <p align="center">
   <img src="./generated/rainfun-snake.gif" alt="Animated contribution snake" />
@@ -120,10 +135,9 @@ Ranked **487 / 6,125 teams** in a Kaggle code competition.
 
 <div align="center">
 
-🌐 [Visit my personal website](https://hccccc01333.github.io/)
+✦ [访问个人网站](https://hccccc01333.github.io/) · [查看全部仓库](https://github.com/hccccc01333?tab=repositories) ✦
+
+<br />
+<sub>⚔ Keep learning · keep building · let the data guide the way ⚔</sub>
 
 </div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:61dafb,100:07111f&height=100&section=footer" alt="Footer divider" />
-</p>
