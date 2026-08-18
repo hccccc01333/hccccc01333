@@ -1,75 +1,139 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Rainfun Data Science Lab</title>
-  <desc id="desc">A dark neon data science laboratory banner with a glowing network and animated scan line.</desc>
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rainfun · Sword and Sorcery</title>
+  <desc id="desc">An original Japanese fantasy adventure banner with enchanted swords, arcane circles, runes, a moon and data science lettering.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050B16"/>
-      <stop offset="0.55" stop-color="#0B1930"/>
-      <stop offset="1" stop-color="#14102C"/>
+    <linearGradient id="sky" x1="90" y1="0" x2="1060" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101735"/>
+      <stop offset="0.48" stop-color="#251D4C"/>
+      <stop offset="1" stop-color="#6B315F"/>
     </linearGradient>
-    <linearGradient id="accent" x1="110" y1="40" x2="1090" y2="260" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#61DAFB"/>
-      <stop offset="0.5" stop-color="#8B7CFF"/>
-      <stop offset="1" stop-color="#FF6BD6"/>
+    <linearGradient id="horizon" x1="0" y1="210" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11162E"/>
+      <stop offset="0.55" stop-color="#17162D"/>
+      <stop offset="1" stop-color="#090D1B"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(920 110) rotate(130) scale(240 330)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#61DAFB" stop-opacity="0.27"/>
-      <stop offset="1" stop-color="#61DAFB" stop-opacity="0"/>
+    <linearGradient id="gold" x1="790" y1="72" x2="1080" y2="246" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1B8"/>
+      <stop offset="0.55" stop-color="#F4C76B"/>
+      <stop offset="1" stop-color="#D77D5E"/>
+    </linearGradient>
+    <linearGradient id="magic" x1="760" y1="95" x2="1070" y2="274" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CF2FF"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#FF91C8"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0" cy="0" r="1" gradientTransform="translate(965 70) rotate(90) scale(125)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6D0" stop-opacity="0.33"/>
+      <stop offset="1" stop-color="#FFF6D0" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#8DBDFF" stroke-opacity="0.1"/>
+    <pattern id="stars" width="110" height="82" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="17" r="1" fill="#FFF6D0" fill-opacity="0.75"/>
+      <circle cx="68" cy="48" r="1.4" fill="#B5E8FF" fill-opacity="0.65"/>
+      <circle cx="96" cy="9" r="0.8" fill="#FFF6D0" fill-opacity="0.65"/>
     </pattern>
-    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-    </filter>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="moonBlur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
     <style>
+      .serif { font-family: Georgia, "Times New Roman", "Noto Serif CJK SC", serif; }
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-      .scan { animation: scan 5s ease-in-out infinite; }
-      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: 920px 150px; }
-      @keyframes scan { 0%, 100% { transform: translateY(-70px); opacity: 0; } 18%, 82% { opacity: .7; } 50% { transform: translateY(100px); opacity: .25; } }
-      @keyframes pulse { 0%, 100% { opacity: .5; transform: scale(.92); } 50% { opacity: 1; transform: scale(1.08); } }
+      .magic-spin { transform-origin: 925px 183px; animation: spin 24s linear infinite; }
+      .magic-spin-reverse { transform-origin: 925px 183px; animation: spin-reverse 32s linear infinite; }
+      .spark { animation: twinkle 2.5s ease-in-out infinite; }
+      .spark-delay { animation: twinkle 3.3s ease-in-out 1s infinite; }
+      .sword-shine { animation: shine 4.5s ease-in-out infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes spin-reverse { to { transform: rotate(-360deg); } }
+      @keyframes twinkle { 0%, 100% { opacity: .25; transform: scale(.65); } 50% { opacity: 1; transform: scale(1.4); } }
+      @keyframes shine { 0%, 75%, 100% { opacity: 0; transform: translateX(-28px); } 84% { opacity: .8; } 92% { opacity: 0; transform: translateX(90px); } }
     </style>
   </defs>
 
-  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="22" fill="url(#grid)"/>
-  <rect width="1200" height="300" rx="22" fill="url(#glow)"/>
-  <path d="M0 270C220 225 360 290 550 246C750 201 910 242 1200 188" stroke="url(#accent)" stroke-opacity="0.3"/>
+  <rect width="1200" height="340" rx="24" fill="url(#sky)"/>
+  <rect width="1200" height="220" rx="24" fill="url(#stars)" opacity="0.72"/>
+  <circle cx="965" cy="70" r="125" fill="url(#moonGlow)" filter="url(#moonBlur)"/>
+  <circle cx="965" cy="70" r="45" fill="#FFF4C7"/>
+  <circle cx="981" cy="57" r="45" fill="#251D4C"/>
+  <circle cx="946" cy="65" r="4" fill="#E5CB9B" opacity="0.5"/>
+  <circle cx="953" cy="87" r="7" fill="#E5CB9B" opacity="0.3"/>
 
-  <g opacity="0.78" filter="url(#softGlow)">
-    <path d="M785 75L850 120L934 68L1018 128L1092 82" stroke="url(#accent)" stroke-width="2"/>
-    <path d="M850 120L892 195L1005 178L1018 128" stroke="#61DAFB" stroke-opacity="0.6"/>
-    <circle cx="785" cy="75" r="5" fill="#61DAFB"/>
-    <circle cx="850" cy="120" r="5" fill="#8B7CFF"/>
-    <circle cx="934" cy="68" r="5" fill="#FF6BD6"/>
-    <circle cx="1018" cy="128" r="5" fill="#61DAFB"/>
-    <circle cx="1092" cy="82" r="5" fill="#8B7CFF"/>
-    <circle cx="892" cy="195" r="5" fill="#61DAFB"/>
-    <circle cx="1005" cy="178" r="5" fill="#FF6BD6"/>
+  <g opacity="0.72" stroke="#F4C76B" stroke-width="1">
+    <path d="M22 22H170M22 22V68M1178 22H1030M1178 22V68M22 318H170M22 318V272M1178 318H1030M1178 318V272"/>
+    <path d="M48 22L72 46L96 22M1104 22L1128 46L1152 22M48 318L72 294L96 318M1104 318L1128 294L1152 318"/>
+  </g>
+  <g opacity="0.7" fill="#FFF1B8" class="spark-delay">
+    <path d="M184 30L188 40L198 44L188 48L184 58L180 48L170 44L180 40L184 30Z"/>
+    <path d="M1020 282L1023 289L1030 292L1023 295L1020 302L1017 295L1010 292L1017 289L1020 282Z"/>
   </g>
 
-  <g class="pulse" filter="url(#softGlow)">
-    <circle cx="920" cy="150" r="46" stroke="url(#accent)" stroke-opacity="0.65"/>
-    <circle cx="920" cy="150" r="25" fill="#61DAFB" fill-opacity="0.12" stroke="#61DAFB"/>
-    <circle cx="920" cy="150" r="8" fill="#E6F0FF"/>
-  </g>
-  <path class="scan" d="M730 150H1110" stroke="#61DAFB" stroke-width="2" filter="url(#softGlow)"/>
+  <path d="M0 245L125 168L218 228L350 143L478 230L610 170L756 242L890 154L1020 228L1120 171L1200 213V340H0V245Z" fill="#11152B" opacity="0.92"/>
+  <path d="M0 276L152 216L292 270L440 204L588 276L735 220L884 279L1025 208L1200 264V340H0V276Z" fill="url(#horizon)"/>
+  <path d="M0 304C190 274 333 327 520 295C715 261 908 313 1200 274V340H0V304Z" fill="#080C18"/>
 
-  <g transform="translate(74 68)">
-    <text class="mono" fill="#61DAFB" font-size="13" letter-spacing="3">DATA SCIENCE / PERSONAL LAB</text>
-    <text fill="#E6F0FF" font-size="58" font-weight="800" letter-spacing="-2">RAIN</text>
-    <text x="166" fill="url(#accent)" font-size="58" font-weight="800" letter-spacing="-2">FUN</text>
-    <rect y="92" width="410" height="1" fill="url(#accent)" opacity="0.7"/>
-    <text y="126" class="mono" fill="#8EA4BD" font-size="14">turning data into insight_</text>
-    <text y="168" class="mono" fill="#61DAFB" font-size="12" letter-spacing="2">PYTHON  //  SQL  //  ML  //  KAGGLE</text>
+  <g class="spark" filter="url(#glow)" fill="#FFF1B8">
+    <path d="M744 61L747 68L754 71L747 74L744 82L741 74L734 71L741 68L744 61Z"/>
+    <path d="M1100 117L1102 122L1107 124L1102 126L1100 132L1098 126L1093 124L1098 122L1100 117Z"/>
+  </g>
+  <g class="spark-delay" filter="url(#glow)" fill="#9DEBFF">
+    <path d="M663 93L666 100L673 103L666 106L663 113L660 106L653 103L660 100L663 93Z"/>
+    <path d="M1115 52L1117 57L1122 59L1117 61L1115 66L1113 61L1108 59L1113 57L1115 52Z"/>
   </g>
 
-  <g class="mono" fill="#8EA4BD" font-size="10" opacity="0.8">
-    <text x="76" y="252">SYS.STATUS: ONLINE</text>
-    <text x="1010" y="252">BUILD: 0x61DAFB</text>
+  <g class="magic-spin" opacity="0.82" filter="url(#glow)">
+    <circle cx="925" cy="183" r="74" stroke="url(#magic)" stroke-width="1.4" stroke-dasharray="3 8"/>
+    <circle cx="925" cy="183" r="58" stroke="#A78BFA" stroke-opacity="0.75" stroke-width="1" stroke-dasharray="12 5"/>
+    <path d="M925 113L940 154L984 154L948 180L961 222L925 197L889 222L902 180L866 154L910 154L925 113Z" stroke="#8CF2FF" stroke-opacity="0.72"/>
+  </g>
+  <g class="magic-spin-reverse" opacity="0.66" stroke="#FF91C8" stroke-width="1">
+    <path d="M925 106V260M848 183H1002M871 129L979 237M979 129L871 237"/>
+  </g>
+
+  <g opacity="0.82" fill="none" stroke="url(#magic)" filter="url(#glow)">
+    <circle cx="130" cy="244" r="35" stroke-width="1" stroke-dasharray="2 7"/>
+    <path d="M130 214L136 236L158 244L136 252L130 274L124 252L102 244L124 236L130 214Z" stroke-width="1.2"/>
+    <circle cx="130" cy="244" r="6" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(238 253) rotate(-24)" opacity="0.7" stroke="#F4C76B" fill="none">
+    <path d="M0 0L55 -55M-8 8L8 -8M45 -55L63 -37M48 -48L56 -40" stroke-width="2"/>
+    <path d="M-10 10L-1 19" stroke-width="5"/>
+  </g>
+
+  <g fill="#D7B7FF" opacity="0.58" class="mono" font-size="12" letter-spacing="3">
+    <text x="300" y="238">ᚱ ᚨ ᛁ ᚾ</text>
+    <text x="300" y="258">✧ ᛗ ᚨ ᚷ ᛁ ᚲ ✧</text>
+  </g>
+
+  <g transform="rotate(-31 925 184)" filter="url(#glow)">
+    <path d="M925 82L934 87L934 212L925 242L916 212L916 87L925 82Z" fill="url(#gold)" stroke="#FFF3C4" stroke-width="1"/>
+    <path d="M925 92L928 101V207L925 226L922 207V101L925 92Z" fill="#FFFBE5" opacity="0.76"/>
+    <path d="M906 212H944L952 220H898L906 212Z" fill="#B96D50" stroke="#F4C76B"/>
+    <path d="M925 220V258" stroke="#C98868" stroke-width="7"/>
+    <path d="M911 249H939" stroke="#F4C76B" stroke-width="5"/>
+    <path class="sword-shine" d="M918 90H931V205H918Z" fill="#FFFFFF" opacity="0"/>
+  </g>
+
+  <g transform="translate(70 72)">
+    <text class="mono" fill="#9DEBFF" font-size="12" letter-spacing="4">QUEST 01  /  ARCANE CHRONICLE</text>
+    <text class="serif" fill="#FFF4D0" font-size="58" font-weight="700" letter-spacing="1">RAIN</text>
+    <text class="serif" x="163" fill="#FFB4D7" font-size="58" font-weight="700" letter-spacing="1">FUN</text>
+    <path d="M0 84H390" stroke="url(#magic)" stroke-width="1.5"/>
+    <text class="serif" y="119" fill="#F5D9C8" font-size="18">探索数据的魔法旅程</text>
+    <text class="mono" y="158" fill="#A9B7D4" font-size="12" letter-spacing="2">PYTHON  ·  SQL  ·  ML  ·  KAGGLE</text>
+    <text class="mono" y="190" fill="#8CF2FF" font-size="10" letter-spacing="1">QUEST STATUS: LEARNING / BUILDING / SHARING</text>
+  </g>
+
+  <g opacity="0.62" stroke="#F4C76B" stroke-width="1">
+    <path d="M390 306L408 288L426 306L444 288L462 306"/>
+    <path d="M770 306L788 288L806 306L824 288L842 306"/>
+  </g>
+
+  <g class="mono" fill="#B5C6DF" font-size="9" opacity="0.82">
+    <text x="70" y="317">✦ MAY THE DATA GUIDE THE WAY</text>
+    <text x="1030" y="317">RΞINFUN // 2026</text>
   </g>
 </svg>
