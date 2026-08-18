@@ -1,0 +1,61 @@
+<svg width="1100" height="190" viewBox="0 0 1100 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rainfun quest board</title>
+  <desc id="desc">A fantasy quest board showing Rainfun's data science projects, Kaggle result and private study notes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1530"/>
+      <stop offset="0.52" stop-color="#211A43"/>
+      <stop offset="1" stop-color="#432343"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CF2FF"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F4C76B"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .title { font-family: Georgia, "Times New Roman", serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: 1010px 28px; }
+      @keyframes pulse { 0%, 100% { opacity: .35; transform: scale(.7); } 50% { opacity: 1; transform: scale(1.15); } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1098" height="188" rx="18" fill="url(#bg)" stroke="#A78BFA" stroke-opacity="0.55"/>
+  <path d="M24 52H1076" stroke="url(#line)" stroke-opacity="0.55"/>
+  <path d="M24 164H1076" stroke="#8CF2FF" stroke-opacity="0.22" stroke-dasharray="2 8"/>
+  <text x="28" y="32" class="mono" fill="#9DEBFF" font-size="11" letter-spacing="3">RAINFUN / QUEST BOARD / 2026</text>
+  <g class="pulse" filter="url(#glow)" fill="#FFF1B8">
+    <path d="M1010 18L1013 25L1020 28L1013 31L1010 38L1007 31L1000 28L1007 25L1010 18Z"/>
+  </g>
+
+  <g transform="translate(28 73)">
+    <circle cx="28" cy="28" r="24" stroke="#8CF2FF" stroke-opacity="0.75" stroke-dasharray="2 6"/>
+    <path d="M28 7L33 22L49 28L33 34L28 50L23 34L7 28L23 22L28 7Z" stroke="#FF91C8"/>
+    <circle cx="28" cy="28" r="5" fill="#F4C76B"/>
+    <text x="70" y="16" class="title" fill="#FFF4D0" font-size="19">ROGII</text>
+    <text x="70" y="38" class="mono" fill="#F4C76B" font-size="10" letter-spacing="2">BRONZE / TOP 8%</text>
+    <text x="70" y="58" class="mono" fill="#A9B7D4" font-size="10">487 / 6,125 TEAMS</text>
+  </g>
+
+  <path d="M360 73V132" stroke="#A78BFA" stroke-opacity="0.45"/>
+  <g transform="translate(390 73)">
+    <path d="M4 50L45 8M0 54L10 64M37 10L51 24" stroke="#F4C76B" stroke-width="3"/>
+    <path d="M20 25L26 31L20 37L14 31L20 25Z" stroke="#8CF2FF"/>
+    <text x="70" y="16" class="title" fill="#FFF4D0" font-size="19">KPLdata</text>
+    <text x="70" y="38" class="mono" fill="#8CF2FF" font-size="10" letter-spacing="2">ACTIVE BUILD</text>
+    <text x="70" y="58" class="mono" fill="#A9B7D4" font-size="10">PREDICTION / REVIEW / AGENT</text>
+  </g>
+
+  <path d="M720 73V132" stroke="#A78BFA" stroke-opacity="0.45"/>
+  <g transform="translate(750 73)">
+    <path d="M23 10H48V54H8V10H23ZM23 10V3H34V10M16 23H40M16 34H40M16 45H32" stroke="#FF91C8" stroke-width="1.5"/>
+    <text x="70" y="16" class="title" fill="#FFF4D0" font-size="19">PRIVATE NOTES</text>
+    <text x="70" y="38" class="mono" fill="#FF91C8" font-size="10" letter-spacing="2">SEALED ARCHIVE</text>
+    <text x="70" y="58" class="mono" fill="#A9B7D4" font-size="10">LEARN / TEST / DOCUMENT</text>
+  </g>
+  <text x="28" y="179" class="mono" fill="#B5C6DF" font-size="9" letter-spacing="1">✦ EVERY PROJECT STARTS WITH A QUESTION</text>
+  <text x="890" y="179" class="mono" fill="#B5C6DF" font-size="9" letter-spacing="1">STATUS: EXPLORING</text>
+</svg>

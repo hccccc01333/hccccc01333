@@ -37,6 +37,10 @@
 问题定义  →  数据清理  →  探索与可视化  →  建模验证  →  解释与交付
 ```
 
+<p align="center">
+  <img src="./assets/data-quest-board.svg" alt="Rainfun quest board" width="100%" />
+</p>
+
 | 方向 | 我正在积累的能力 |
 | --- | --- |
 | 数据分析 | 缺失值、异常值、特征关系、分组对比与业务指标拆解 |
@@ -44,6 +48,8 @@
 | 数据产品 | 把脚本、Notebook 和实验过程整理成可复用的小工具 |
 
 ## 能力树
+
+<p align="center"><sub>✧ OBSERVE · CAST · DELIVER ✧</sub></p>
 
 <table>
   <tr>
@@ -63,6 +69,8 @@
 </table>
 
 ## 作品任务
+
+<p align="center"><sub>⚔ SELECTED EXPEDITIONS / PUBLIC WORKS ⚔</sub></p>
 
 <table>
   <tr>
@@ -96,6 +104,8 @@
 </table>
 
 ## Kaggle 战绩
+
+<p align="center"><sub>🥉 PROOF OF WORK · COMPETITION RECORD</sub></p>
 
 <table>
   <tr>
