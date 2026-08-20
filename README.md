@@ -6,9 +6,9 @@
 
 # Rainfun | 数据科学
 
-数据科学学习者 · Python / SQL / 机器学习
+数据科学学习者 · Python / SQL / Machine Learning
 
-专注于数据分析、统计建模与机器学习，持续把所学方法应用到真实数据和实际项目中。
+以数据分析与建模为主要方向，正在系统学习从数据处理到机器学习应用的完整方法。
 
 [![Website](https://img.shields.io/badge/Website-6B315F?style=flat-square&logo=googlechrome&logoColor=FFF4D0)](https://hccccc01333.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-hccccc01333-17162D?style=flat-square&logo=github&logoColor=FFF4D0)](https://github.com/hccccc01333)
@@ -18,15 +18,31 @@
 
 <p align="center"><sub>DATA SCIENCE · MODELING · RESEARCH</sub></p>
 
+<p align="center">
+  <img src="./assets/profile-overview.svg" alt="Data science profile overview" width="100%" />
+</p>
+
 ## 关于我
 
-我目前专注于数据科学方向，正在系统学习数据分析、统计建模和机器学习，并通过竞赛与项目不断积累实践经验。
+我叫 Rainfun，目前专注于数据科学方向，主要学习数据分析、统计建模和机器学习。
 
-## 职业方向
+<table>
+  <tr>
+    <td width="33%"><b>职业定位</b><br />数据科学学习者</td>
+    <td width="33%"><b>专业方向</b><br />数据分析 · 建模 · 可视化</td>
+    <td width="33%"><b>实践方式</b><br />竞赛 · 项目 · 持续学习</td>
+  </tr>
+</table>
 
-希望成长为能够独立完成数据分析、建模和结果交付的数据科学从业者。
+<p align="center">
+  <img src="./assets/fantasy-divider.svg" alt="Sword and magic divider" width="100%" />
+</p>
 
-目前的学习重点是夯实数据基础、提升建模能力，并逐步形成从数据处理到分析结论的完整工作流。
+## 职业目标
+
+希望成长为能够独立完成数据分析、机器学习建模和数据应用的数据科学从业者。
+
+长期关注真实问题中的数据分析与预测建模，并持续积累可展示的项目成果。
 
 ## 当前研究与学习
 
@@ -36,6 +52,10 @@
 | 统计建模 | 特征工程、交叉验证、模型比较、误差分析与模型解释 |
 | 机器学习 | 分类与回归问题、预测任务、竞赛方案与实验复盘 |
 | 数据应用 | Jupyter、Power BI、数据工具与分析项目实践 |
+
+<p align="center">
+  <img src="./assets/fantasy-divider.svg" alt="Sword and magic divider" width="100%" />
+</p>
 
 ## 技术基础
 
@@ -80,6 +100,10 @@
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="./assets/fantasy-divider.svg" alt="Sword and magic divider" width="100%" />
+</p>
 
 ## 成就
 

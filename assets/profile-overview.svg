@@ -1,0 +1,76 @@
+<svg width="1100" height="170" viewBox="0 0 1100 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rainfun data science profile overview</title>
+  <desc id="desc">A professional overview of Rainfun's data science direction, focus areas, Kaggle achievement and current studies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111936"/>
+      <stop offset="0.52" stop-color="#241D49"/>
+      <stop offset="1" stop-color="#4C294B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="20" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CF2FF"/>
+      <stop offset="0.52" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F4C76B"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .heading { font-family: Georgia, "Times New Roman", serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .spark { animation: blink 2.7s ease-in-out infinite; }
+      @keyframes blink { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1098" height="168" rx="18" fill="url(#bg)" stroke="#A78BFA" stroke-opacity="0.55"/>
+  <g opacity="0.72" stroke="#F4C76B" stroke-width="1">
+    <path d="M18 18H86M18 18V42M1082 18H1014M1082 18V42M18 152H86M18 152V128M1082 152H1014M1082 152V128"/>
+    <path d="M34 18L50 34L66 18M1034 18L1050 34L1066 18M34 152L50 136L66 152M1034 152L1050 136L1066 152"/>
+  </g>
+  <g transform="translate(94 27)" opacity="0.66" filter="url(#softGlow)" stroke="#F4C76B" stroke-linecap="round">
+    <path d="M-8 12L12 -8M-13 7L-3 17M8 -12L17 -3" stroke-width="2"/>
+    <path d="M8 12L-12 -8M13 7L3 17M-8 -12L-17 -3" stroke-width="2"/>
+  </g>
+  <g transform="translate(984 28)" opacity="0.58" stroke="#8CF2FF">
+    <circle cx="0" cy="0" r="16" stroke-dasharray="2 5"/>
+    <path d="M0 -12L3 -3L12 0L3 3L0 12L-3 3L-12 0L-3 -3L0 -12Z"/>
+  </g>
+  <path d="M24 48H1076" stroke="url(#accent)" stroke-opacity="0.55"/>
+  <text x="26" y="30" class="mono" fill="#9DEBFF" font-size="10" letter-spacing="3">PROFILE OVERVIEW / DATA SCIENCE</text>
+  <g class="spark" filter="url(#softGlow)" fill="#FFF1B8">
+    <path d="M1040 18L1043 25L1050 28L1043 31L1040 38L1037 31L1030 28L1037 25L1040 18Z"/>
+  </g>
+
+  <g transform="translate(26 68)">
+    <circle cx="24" cy="26" r="22" stroke="#8CF2FF" stroke-opacity="0.75"/>
+    <path d="M13 34L20 25L25 29L36 16" stroke="#F4C76B" stroke-width="2"/>
+    <circle cx="13" cy="34" r="2.5" fill="#8CF2FF"/>
+    <circle cx="20" cy="25" r="2.5" fill="#8CF2FF"/>
+    <circle cx="25" cy="29" r="2.5" fill="#8CF2FF"/>
+    <circle cx="36" cy="16" r="2.5" fill="#F4C76B"/>
+    <text x="62" y="15" class="mono" fill="#A9B7D4" font-size="9" letter-spacing="2">DIRECTION</text>
+    <text x="62" y="38" class="heading" fill="#FFF4D0" font-size="20">Data Science</text>
+  </g>
+
+  <path d="M365 68V126M645 68V126M865 68V126" stroke="#A78BFA" stroke-opacity="0.42"/>
+
+  <g transform="translate(400 68)">
+    <text class="mono" fill="#A9B7D4" font-size="9" letter-spacing="2">FOCUS AREAS</text>
+    <text y="27" class="heading" fill="#FFF4D0" font-size="17">Analysis · Modeling</text>
+    <text y="50" class="mono" fill="#8CF2FF" font-size="10">Python / SQL / ML</text>
+  </g>
+
+  <g transform="translate(680 68)">
+    <text class="mono" fill="#A9B7D4" font-size="9" letter-spacing="2">ACHIEVEMENT</text>
+    <text y="27" class="heading" fill="#F4C76B" font-size="17">Kaggle Bronze</text>
+    <text y="50" class="mono" fill="#FFF1B8" font-size="10">487 / 6,125 · TOP 8%</text>
+  </g>
+
+  <g transform="translate(900 68)">
+    <text class="mono" fill="#A9B7D4" font-size="9" letter-spacing="2">CURRENTLY STUDYING</text>
+    <text y="27" class="heading" fill="#FFF4D0" font-size="17">Statistics · ML</text>
+    <text y="50" class="mono" fill="#FF91C8" font-size="10">Feature engineering</text>
+  </g>
+  <path d="M26 145H1074" stroke="#8CF2FF" stroke-opacity="0.2" stroke-dasharray="2 8"/>
+</svg>

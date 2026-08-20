@@ -1,0 +1,42 @@
+<svg width="1000" height="58" viewBox="0 0 1000 58" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sword and magic divider</title>
+  <desc id="desc">A decorative divider with crossed swords, a magic circle and arcane runes.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="29" x2="1000" y2="29" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CF2FF" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#8CF2FF" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#F4C76B"/>
+      <stop offset="0.78" stop-color="#FF91C8" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#FF91C8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-100%" width="180%" height="300%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .spin { transform-origin: 500px 29px; animation: spin 22s linear infinite; }
+      .spark { animation: twinkle 2.6s ease-in-out infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes twinkle { 0%, 100% { opacity: .25; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <path d="M34 29H966" stroke="url(#line)" stroke-width="1"/>
+  <path d="M120 29L135 22L150 29L135 36L120 29ZM850 29L865 22L880 29L865 36L850 29Z" stroke="#A78BFA" stroke-opacity="0.7"/>
+  <g class="spin" filter="url(#glow)" stroke="#8CF2FF" stroke-opacity="0.8">
+    <circle cx="500" cy="29" r="22" stroke-width="1" stroke-dasharray="2 5"/>
+    <path d="M500 9L504 24L520 29L504 34L500 49L496 34L480 29L496 24L500 9Z" stroke="#FF91C8"/>
+  </g>
+  <g transform="translate(500 29)" filter="url(#glow)" stroke="#F4C76B" stroke-linecap="round">
+    <path d="M-6 16L18 -18M-12 10L-2 20M14 -22L23 -13" stroke-width="2.4"/>
+    <path d="M6 16L-18 -18M12 10L2 20M-14 -22L-23 -13" stroke-width="2.4"/>
+    <path d="M-5 4H5M0 -1V9" stroke="#FFF1B8" stroke-width="1.4"/>
+  </g>
+  <g class="spark" fill="#FFF1B8">
+    <path d="M260 21L263 27L269 30L263 33L260 39L257 33L251 30L257 27L260 21Z"/>
+    <path d="M740 21L743 27L749 30L743 33L740 39L737 33L731 30L737 27L740 21Z"/>
+  </g>
+  <g fill="#D7B7FF" opacity="0.7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="3">
+    <text x="300" y="33">ᚱ ᚨ ᛁ ᚾ</text>
+    <text x="610" y="33">ᛗ ᚨ ᚷ ᛁ ᚲ</text>
+  </g>
+</svg>

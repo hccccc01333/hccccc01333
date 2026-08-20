@@ -43,6 +43,7 @@
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
       .magic-spin { transform-origin: 925px 183px; animation: spin 24s linear infinite; }
       .magic-spin-reverse { transform-origin: 925px 183px; animation: spin-reverse 32s linear infinite; }
+      .magic-spin-left { transform-origin: 270px 176px; animation: spin 36s linear infinite; }
       .spark { animation: twinkle 2.5s ease-in-out infinite; }
       .spark-delay { animation: twinkle 3.3s ease-in-out 1s infinite; }
       .sword-shine { animation: shine 4.5s ease-in-out infinite; }
@@ -108,6 +109,19 @@
   <g class="spark-delay" filter="url(#glow)" fill="#9DEBFF">
     <path d="M663 93L666 100L673 103L666 106L663 113L660 106L653 103L660 100L663 93Z"/>
     <path d="M1115 52L1117 57L1122 59L1117 61L1115 66L1113 61L1108 59L1113 57L1115 52Z"/>
+  </g>
+
+  <g class="magic-spin-left" opacity="0.24" stroke="url(#magic)" filter="url(#glow)">
+    <circle cx="270" cy="176" r="58" stroke-width="1" stroke-dasharray="3 8"/>
+    <circle cx="270" cy="176" r="43" stroke-width="1" stroke-dasharray="12 6"/>
+    <path d="M270 124L280 158L315 176L280 194L270 228L260 194L225 176L260 158L270 124Z"/>
+  </g>
+
+  <g transform="translate(790 118)" opacity="0.78" filter="url(#glow)">
+    <circle cx="0" cy="0" r="27" stroke="#8CF2FF" stroke-opacity="0.7" stroke-dasharray="2 6"/>
+    <path d="M-13 18L17 -19M-19 12L-7 24M12 -24L23 -13" stroke="#F4C76B" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M13 18L-17 -19M19 12L7 24M-12 -24L-23 -13" stroke="#FF91C8" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-5 0H5M0 -5V5" stroke="#FFF1B8" stroke-width="1.5"/>
   </g>
 
   <g class="magic-spin" opacity="0.82" filter="url(#glow)">
