@@ -1,0 +1,139 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rainfun · Data Science and Poetry</title>
+  <desc id="desc">An original fantasy banner with a Chinese and English line from Mao Zedong's poem Qilu To Shaoshan, surrounded by moonlight, magic circles and crossed swords.</desc>
+  <defs>
+    <linearGradient id="sky" x1="60" y1="0" x2="1140" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1635"/>
+      <stop offset="0.48" stop-color="#251D4D"/>
+      <stop offset="1" stop-color="#6A315E"/>
+    </linearGradient>
+    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientTransform="translate(870 180) rotate(90) scale(190 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="0" cy="0" r="1" gradientTransform="translate(1015 70) rotate(90) scale(128)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4C7" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#FFF4C7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="780" y1="72" x2="1040" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4C7"/>
+      <stop offset="0.52" stop-color="#F4C76B"/>
+      <stop offset="1" stop-color="#D87E5E"/>
+    </linearGradient>
+    <linearGradient id="roseSteel" x1="1040" y1="72" x2="830" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE7F2"/>
+      <stop offset="0.52" stop-color="#FF91C8"/>
+      <stop offset="1" stop-color="#8CF2FF"/>
+    </linearGradient>
+    <linearGradient id="magic" x1="720" y1="90" x2="1050" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CF2FF"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#FF91C8"/>
+    </linearGradient>
+    <pattern id="stars" width="120" height="86" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="18" r="1" fill="#FFF1C9" fill-opacity="0.72"/>
+      <circle cx="76" cy="52" r="1.3" fill="#B9ECFF" fill-opacity="0.66"/>
+      <circle cx="106" cy="12" r="0.8" fill="#FFF1C9" fill-opacity="0.7"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="moonBlur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <style>
+      .serif { font-family: Georgia, "Times New Roman", "Noto Serif CJK SC", serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .spin { transform-origin: 880px 192px; animation: spin 28s linear infinite; }
+      .reverse { transform-origin: 880px 192px; animation: reverseSpin 36s linear infinite; }
+      .twinkle { animation: twinkle 2.8s ease-in-out infinite; }
+      .twinkle-delay { animation: twinkle 3.4s ease-in-out 1s infinite; }
+      .shine { animation: shine 4.8s ease-in-out infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes reverseSpin { to { transform: rotate(-360deg); } }
+      @keyframes twinkle { 0%, 100% { opacity: .3; transform: scale(.7); } 50% { opacity: 1; transform: scale(1.35); } }
+      @keyframes shine { 0%, 72%, 100% { opacity: 0; transform: translateX(-36px); } 82% { opacity: .85; } 92% { opacity: 0; transform: translateX(100px); } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#sky)"/>
+  <rect width="1200" height="250" rx="24" fill="url(#stars)" opacity="0.72"/>
+  <rect width="1200" height="360" rx="24" fill="url(#violetGlow)"/>
+
+  <circle cx="1015" cy="70" r="128" fill="url(#moonGlow)" filter="url(#moonBlur)"/>
+  <circle cx="1015" cy="70" r="48" fill="#FFF4C7"/>
+  <circle cx="1034" cy="55" r="48" fill="#251D4D"/>
+  <circle cx="994" cy="70" r="4" fill="#E5CB9B" opacity="0.55"/>
+  <circle cx="1002" cy="91" r="7" fill="#E5CB9B" opacity="0.35"/>
+
+  <g opacity="0.72" stroke="#F4C76B" stroke-width="1">
+    <path d="M22 22H175M22 22V70M1178 22H1025M1178 22V70M22 338H175M22 338V290M1178 338H1025M1178 338V290"/>
+    <path d="M48 22L73 47L98 22M1102 22L1127 47L1152 22M48 338L73 313L98 338M1102 338L1127 313L1152 338"/>
+  </g>
+
+  <path d="M0 270L145 180L260 247L405 154L540 251L678 176L800 250L942 164L1050 240L1135 180L1200 218V360H0V270Z" fill="#11152B" opacity="0.94"/>
+  <path d="M0 300L160 238L300 291L450 226L610 296L760 235L905 294L1045 224L1200 280V360H0V300Z" fill="#0A0E1E"/>
+  <path d="M0 328C210 298 360 346 540 316C740 284 930 334 1200 300V360H0V328Z" fill="#070B16"/>
+
+  <g fill="#080C19" opacity="0.96">
+    <path d="M500 286V245H516V222H533V245H550V211H568V245H585V232H603V286H500Z"/>
+    <path d="M555 211L539 201L544 196L556 202L568 196L573 201L557 211Z"/>
+    <path d="M509 222V208L519 203L529 208V222H509Z"/>
+    <path d="M589 232V218L598 213L607 218V232H589Z"/>
+  </g>
+  <g fill="#F4C76B" opacity="0.72">
+    <rect x="515" y="245" width="5" height="8" rx="1"/>
+    <rect x="551" y="229" width="6" height="10" rx="1"/>
+    <rect x="593" y="245" width="5" height="8" rx="1"/>
+  </g>
+
+  <g transform="translate(875 190)" opacity="0.76" filter="url(#glow)">
+    <circle r="90" stroke="url(#magic)" stroke-width="1.5" stroke-dasharray="3 9"/>
+    <circle r="73" stroke="#8CF2FF" stroke-opacity="0.65" stroke-width="1" stroke-dasharray="14 6"/>
+    <path d="M0 -66L17 -23L64 -20L27 7L39 54L0 28L-39 54L-27 7L-64 -20L-17 -23L0 -66Z" stroke="#FF91C8" stroke-opacity="0.78"/>
+    <path d="M0 -49V49M-49 0H49M-35 -35L35 35M35 -35L-35 35" stroke="#A78BFA" stroke-opacity="0.55"/>
+  </g>
+
+  <g transform="translate(875 190)" filter="url(#glow)">
+    <g transform="rotate(-28)">
+      <path d="M0 -116L9 -108L9 45L0 75L-9 45L-9 -108L0 -116Z" fill="url(#gold)" stroke="#FFF3C4" stroke-width="1"/>
+      <path d="M0 -103L3 -94V39L0 58L-3 39V-94L0 -103Z" fill="#FFFBE5" opacity="0.8"/>
+      <path d="M-20 44H20L28 53H-28L-20 44Z" fill="#B96D50" stroke="#F4C76B"/>
+      <path d="M0 53V90" stroke="#C98868" stroke-width="7"/>
+      <path d="M-14 81H14" stroke="#F4C76B" stroke-width="5"/>
+      <path class="shine" d="M-7 -106H7V37H-7Z" fill="#FFFFFF" opacity="0"/>
+    </g>
+    <g transform="rotate(28)">
+      <path d="M0 -112L8 -103L8 47L0 75L-8 47L-8 -103L0 -112Z" fill="url(#roseSteel)" stroke="#FFE7F2" stroke-width="1"/>
+      <path d="M0 -99L3 -90V40L0 58L-3 40V-90L0 -99Z" fill="#FFFFFF" opacity="0.7"/>
+      <path d="M-20 46H20L27 55H-27L-20 46Z" fill="#7A4A78" stroke="#FF91C8"/>
+      <path d="M0 55V91" stroke="#8D6AAE" stroke-width="7"/>
+      <path d="M-14 82H14" stroke="#FF91C8" stroke-width="5"/>
+    </g>
+  </g>
+
+  <g class="twinkle" fill="#FFF1B8" filter="url(#glow)">
+    <path d="M734 70L738 80L748 84L738 88L734 98L730 88L720 84L730 80L734 70Z"/>
+    <path d="M1100 142L1103 149L1110 152L1103 155L1100 162L1097 155L1090 152L1097 149L1100 142Z"/>
+  </g>
+  <g class="twinkle-delay" fill="#9DEBFF" filter="url(#glow)">
+    <path d="M675 116L678 123L685 126L678 129L675 136L672 129L665 126L672 123L675 116Z"/>
+    <path d="M1128 238L1131 245L1138 248L1131 251L1128 258L1125 251L1118 248L1125 245L1128 238Z"/>
+  </g>
+
+  <g transform="translate(64 64)">
+    <text class="mono" fill="#9DEBFF" font-size="11" letter-spacing="3">毛泽东诗词 / SELECTED POETRY</text>
+    <text class="serif" y="45" fill="#FFF4D0" font-size="38" font-weight="700">RAINFUN</text>
+    <path d="M0 61H440" stroke="url(#magic)" stroke-width="1.5"/>
+    <text class="serif" y="94" fill="#FFB4D7" font-size="17">七律·到韶山  /  Qilu · To Shaoshan</text>
+    <text class="serif" y="135" fill="#FFF4D0" font-size="24">为有牺牲多壮志，敢教日月换新天。</text>
+    <text class="serif" y="166" fill="#C9D7F2" font-size="15">For sacrifice gives rise to a mighty will; we dare to make a new world beneath the sun and moon.</text>
+    <text class="mono" y="244" fill="#8CF2FF" font-size="11" letter-spacing="2">DATA SCIENCE · PYTHON · SQL · MACHINE LEARNING</text>
+  </g>
+
+  <g class="mono" fill="#B5C6DF" font-size="9" opacity="0.82">
+    <text x="64" y="335">✦ POETRY · DATA · THE LONG ROAD OF LEARNING</text>
+    <text x="1030" y="335">RΞINFUN // 2026</text>
+  </g>
+</svg>

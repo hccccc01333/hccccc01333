@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="./assets/neon-lab-banner.svg" alt="Rainfun · Sword and Sorcery" width="100%" />
+  <img src="./assets/poetry-fantasy-banner.svg" alt="Rainfun · Data Science and Revolutionary Poetry" width="100%" />
 </p>
 
 <div align="center">
 
-# Rainfun | 数据科学
+# 雨乐 | Rainfun
 
-数据科学学习者 · Python / SQL / Machine Learning
+### 数据科学学习者 · Data Science Learner
 
-以数据分析与建模为主要方向，正在系统学习从数据处理到机器学习应用的完整方法。
+以数据分析、统计建模和机器学习为主要方向，持续学习并积累项目实践。
 
 [![Website](https://img.shields.io/badge/Website-6B315F?style=flat-square&logo=googlechrome&logoColor=FFF4D0)](https://hccccc01333.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-hccccc01333-17162D?style=flat-square&logo=github&logoColor=FFF4D0)](https://github.com/hccccc01333)
@@ -16,48 +16,46 @@
 
 </div>
 
-<p align="center"><sub>DATA SCIENCE · MODELING · RESEARCH</sub></p>
+<p align="center"><sub>DATA SCIENCE · MODELING · RESEARCH · BUILDING</sub></p>
 
 <p align="center">
   <img src="./assets/profile-overview.svg" alt="Data science profile overview" width="100%" />
 </p>
 
-## 关于我
-
-我叫 Rainfun，目前专注于数据科学方向，主要学习数据分析、统计建模和机器学习。
+<p align="center">
+  <img src="./assets/fantasy-divider.svg" alt="Sword and magic divider" width="100%" />
+</p>
 
 <table>
   <tr>
-    <td width="33%"><b>职业定位</b><br />数据科学学习者</td>
-    <td width="33%"><b>专业方向</b><br />数据分析 · 建模 · 可视化</td>
-    <td width="33%"><b>实践方式</b><br />竞赛 · 项目 · 持续学习</td>
+    <td valign="top" width="55%">
+      <h2>关于我 / About</h2>
+      <p>我叫 Rainfun，目前专注于数据科学方向，正在系统学习数据分析、统计建模和机器学习。</p>
+      <p><b>专业方向：</b>数据分析 · 预测建模 · 数据可视化</p>
+      <p><b>实践方式：</b>竞赛 · 项目 · 持续学习</p>
+    </td>
+    <td valign="top" width="45%">
+      <h2>职业志向 / Direction</h2>
+      <p>希望成长为能够独立完成数据分析、机器学习建模和数据应用的数据科学从业者。</p>
+      <p>长期关注真实问题中的数据分析与预测建模。</p>
+    </td>
   </tr>
 </table>
 
-<p align="center">
-  <img src="./assets/fantasy-divider.svg" alt="Sword and magic divider" width="100%" />
-</p>
+## 当前研究与学习 / Current Focus
 
-## 职业目标
+<table>
+  <tr>
+    <td valign="top" width="50%"><b>01 · 数据分析</b><br />Python · Pandas · SQL<br /><sub>数据清洗、探索性分析、可视化</sub></td>
+    <td valign="top" width="50%"><b>02 · 统计建模</b><br />特征工程 · 交叉验证<br /><sub>模型比较、误差分析、结果解释</sub></td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%"><b>03 · 机器学习</b><br />分类 · 回归 · 预测<br /><sub>竞赛方案、模型训练、实验复盘</sub></td>
+    <td valign="top" width="50%"><b>04 · 数据应用</b><br />Jupyter · Power BI · Git<br /><sub>分析项目、数据工具、可视化交付</sub></td>
+  </tr>
+</table>
 
-希望成长为能够独立完成数据分析、机器学习建模和数据应用的数据科学从业者。
-
-长期关注真实问题中的数据分析与预测建模，并持续积累可展示的项目成果。
-
-## 当前研究与学习
-
-| 方向 | 当前内容 |
-| --- | --- |
-| 数据分析 | Python、Pandas、SQL、数据清洗、探索性分析与可视化 |
-| 统计建模 | 特征工程、交叉验证、模型比较、误差分析与模型解释 |
-| 机器学习 | 分类与回归问题、预测任务、竞赛方案与实验复盘 |
-| 数据应用 | Jupyter、Power BI、数据工具与分析项目实践 |
-
-<p align="center">
-  <img src="./assets/fantasy-divider.svg" alt="Sword and magic divider" width="100%" />
-</p>
-
-## 技术基础
+## 技术基础 / Technical Foundation
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -68,67 +66,66 @@
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=111827" alt="Power BI" />
 </p>
 
-## 专业实践
+<p align="center">
+  <img src="./assets/fantasy-divider.svg" alt="Sword and magic divider" width="100%" />
+</p>
+
+## 代表性项目 / Selected Work
 
 <table>
   <tr>
     <td valign="top" width="50%">
       <h3>ROGII · 井筒地质预测</h3>
-      <p>围绕地质预测任务完成数据探索、特征构造、模型训练与竞赛提交。</p>
-      <p><b>成果：</b>Kaggle 铜牌，487 / 6,125 队伍，Top 8%。</p>
+      <p>地质预测竞赛项目，完成数据探索、特征构造、模型训练与提交。</p>
+      <p><b>Kaggle 铜牌 · 487 / 6,125 · Top 8%</b></p>
       <a href="https://github.com/hccccc01333/rogii-487th-place-solution">查看项目 ↗</a>
     </td>
     <td valign="top" width="50%">
       <h3>KPLdata · 比赛数据分析</h3>
-      <p>围绕赛程数据、实时胜率预测和比赛复盘进行数据建模与分析。</p>
-      <p><b>方向：</b>数据采集 · 预测分析 · 可视化</p>
+      <p>围绕赛程数据、实时胜率预测和比赛复盘进行分析。</p>
+      <p><b>数据采集 · 预测分析 · 可视化</b></p>
       <a href="https://github.com/hccccc01333/KPLdata">查看项目 ↗</a>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <h3>DSH Excel Chat · 数据工具实践</h3>
-      <p>通过对话创建、编辑、修复和验证 Excel，探索数据工具的自动化应用。</p>
-      <p><b>方向：</b>表格处理 · 代理评估 · 自动验证</p>
+      <h3>DSH Excel Chat · 数据工具</h3>
+      <p>通过对话创建、编辑、修复和验证 Excel，探索数据工具自动化。</p>
+      <p><b>表格处理 · 代理评估 · 自动验证</b></p>
       <a href="https://github.com/hccccc01333/dsh-excel-chat">查看项目 ↗</a>
     </td>
     <td valign="top" width="50%">
       <h3>Power BI · 零售经营分析</h3>
-      <p>围绕零售数据建立分析模型，完成经营指标、复购和异常情况分析。</p>
-      <p><b>方向：</b>数据建模 · 指标分析 · 商业可视化</p>
+      <p>围绕零售数据建立分析模型，完成经营指标、复购和异常分析。</p>
+      <p><b>数据建模 · 指标分析 · 商业可视化</b></p>
       <a href="https://github.com/hccccc01333/powerbi-retail-analysis">查看项目 ↗</a>
     </td>
   </tr>
 </table>
 
-<p align="center">
-  <img src="./assets/fantasy-divider.svg" alt="Sword and magic divider" width="100%" />
-</p>
-
-## 成就
+## 成就 / Achievement
 
 <table>
   <tr>
     <td width="90" align="center">🥉<br /><sub>BRONZE</sub></td>
-    <td>
-      <b>ROGII - Wellbore Geology Prediction</b><br />
-      487 / 6,125 teams · Code Competition · Top 8%
-    </td>
-    <td align="right"><a href="https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction">查看比赛 ↗</a></td>
+    <td><b>ROGII - Wellbore Geology Prediction</b><br />487 / 6,125 teams · Code Competition · Top 8%</td>
+    <td align="right"><a href="https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction">Kaggle ↗</a></td>
   </tr>
 </table>
 
-## 研究路线
+## 诗词 / Poetry
 
-```text
-数据分析基础  →  统计方法  →  机器学习建模  →  数据产品实践
-```
+**毛泽东 ·《七律·到韶山》**<br />
+*Mao Zedong · “Qilu · To Shaoshan”*
+
+> 为有牺牲多壮志，敢教日月换新天。<br />
+> *For sacrifice gives rise to a mighty will; we dare to make a new world beneath the sun and moon.*
+
+## 研究路线 / Research Path
+
+<p align="center"><b>数据分析基础</b>　→　<b>统计方法</b>　→　<b>机器学习建模</b>　→　<b>数据产品实践</b></p>
 
 当前重点：完善 Python 与 SQL 能力，深入学习统计建模、特征工程、模型评估和结果解释。
-
-## 未来方向
-
-持续向数据科学方向发展，逐步建立从数据处理、分析建模到实际应用的完整能力，并通过项目和竞赛验证学习成果。
 
 <div align="center">
 
