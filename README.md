@@ -33,7 +33,7 @@
     </td>
     <td valign="top" width="45%">
       <h3>🔭 职业志向</h3>
-      <p>成长为能够独立完成数据分析、机器学习建模和数据应用的数据科学从业者。</p>
+      <p>成长为能独立完成数据分析、机器学习建模与数据应用的数据科学从业者，并向 <b>LLM Agent 开发与安全</b> 方向深耕。</p>
       <p><i>长期关注真实问题中的数据分析与预测建模。</i></p>
     </td>
   </tr>
@@ -46,15 +46,14 @@
 ## 📊 GitHub 战绩 / Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hccccc01333&show_icons=true&hide_border=true&bg_color=0,17162D,2D1B4E&title_color=FFF4D0&icon_color=CD7F32&text_color=C9B8E8" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hccccc01333&layout=compact&hide_border=true&bg_color=0,17162D,2D1B4E&title_color=FFF4D0&text_color=C9B8E8&langs_count=8" alt="Top languages" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hccccc01333&hide_border=true&background=17162D&stroke=CD7F32&ring=CD7F32&fire=FFF4D0&currStreakLabel=FFF4D0&sideLabels=C9B8E8&dates=C9B8E8&currStreakNum=FFF4D0&sideNums=FFF4D0" alt="GitHub streak" height="165" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=hccccc01333&show_icons=true&hide_border=true&bg_color=0,17162D,2D1B4E&title_color=FFF4D0&icon_color=CD7F32&text_color=C9B8E8&cache_seconds=86400" alt="GitHub stats" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hccccc01333&layout=compact&hide_border=true&bg_color=0,17162D,2D1B4E&title_color=FFF4D0&text_color=C9B8E8&langs_count=8&cache_seconds=86400" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hccccc01333&theme=onedark&no-frame=true&row=1&column=4&margin-w=8&no-bg=true" alt="Trophies" />
+  <img src="https://img.shields.io/badge/Kaggle%20Medal-🥉%20AI%20Agent%20Security-CD7F32?style=for-the-badge&logo=kaggle&logoColor=white" alt="medal" />
+  <img src="https://img.shields.io/badge/Kaggle%20Medal-🥉%20ROGII%20Geology-CD7F32?style=for-the-badge&logo=kaggle&logoColor=white" alt="medal" />
+  <img src="https://img.shields.io/badge/Direction-LLM%20Agents-6B315F?style=for-the-badge" alt="agent direction" />
 </p>
 
 <p align="center">
@@ -194,11 +193,11 @@
 ## 🗺️ 研究路线 / Research Path
 
 <p align="center">
-  <b>数据分析基础</b> → <b>统计方法</b> → <b>机器学习建模</b> → <b>数据产品实践</b> → <b>AI 安全红队</b>
+  <b>数据分析基础</b> → <b>统计方法</b> → <b>机器学习建模</b> → <b>数据产品实践</b> → <b>AI 安全红队</b> → <b>🤖 LLM Agents</b>
 </p>
 
 <div align="center">
-<sub>当前重点：完善 Python 与 SQL 能力，深入学习统计建模、特征工程、模型评估和结果解释。</sub>
+<sub>当前重点：<b>LLM Agent 开发与安全</b> —— 工具调用、多步规划、护栏对抗评估（延续红队竞赛方法论），同时夯实 Python / SQL 与统计建模基础。</sub>
 </div>
 
 <p align="center">
