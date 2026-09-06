@@ -101,6 +101,14 @@
       <a href="https://github.com/hccccc01333/powerbi-retail-analysis">查看项目 ↗</a>
     </td>
   </tr>
+  <tr>
+    <td valign="top" width="50%" colspan="2">
+      <h3>AI Agent Security · 多步工具攻击红队管线</h3>
+      <p>Kaggle 安全竞赛完整研究管线：149 个攻击变体（EXFIL / 混淆代理 / HARMONY 注入）、护栏世界矩阵模拟器、期望值弹药分配模型，110 发提交全量实验账本。</p>
+      <p><b>LLM 代理红队 · 源码级攻击面分析 · 铜牌</b></p>
+      <a href="https://github.com/hccccc01333/ai-agent-security-redteam">查看项目 ↗</a>
+    </td>
+  </tr>
 </table>
 
 ## 成就 / Achievement
@@ -110,6 +118,11 @@
     <td width="90" align="center">🥉<br /><sub>BRONZE</sub></td>
     <td><b>ROGII - Wellbore Geology Prediction</b><br />487 / 6,125 teams · Code Competition · Top 8%</td>
     <td align="right"><a href="https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction">Kaggle ↗</a></td>
+  </tr>
+  <tr>
+    <td width="90" align="center">🥉<br /><sub>BRONZE</sub></td>
+    <td><b>AI Agent Security - Multi-Step Tool Attacks</b><br />~200 / 3,000+ teams · Code Competition · Top 7% · LLM Agent Red-Teaming</td>
+    <td align="right"><a href="https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks">Kaggle ↗</a> · <a href="https://github.com/hccccc01333/ai-agent-security-redteam">GitHub ↗</a></td>
   </tr>
 </table>
 
