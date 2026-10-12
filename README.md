@@ -2,25 +2,32 @@
 
 Data Science · Machine Learning · LLM Agents
 
-我关注数据分析、统计建模与机器学习，也在探索 LLM Agent 的开发与安全。这里主要分享项目代码、实验记录，以及解决实际问题的过程。
+我在这里分享代码、实验记录和解决问题的过程。
 
-## 关注方向
+我理解的开源，不只是公开结果，更是让工作能够被**理解、复现、质疑和继续改进**。
 
-- **数据科学**：Python、SQL、Pandas、统计分析与预测建模
-- **LLM Agents**：工具调用、自动化、评估与安全
-- **开源实践**：分享方法、工具和可复现的实验
+## 关于开源
 
-## 项目
+- **开放过程**：记录方法、实验、取舍和踩过的坑，而不只展示成果。
+- **尽量可复现**：持续补充运行说明、依赖、数据来源与已知局限。
+- **欢迎不同意见**：Bug 报告、复现反馈、文档修正和代码贡献都值得认真对待。
+- **尊重贡献**：注明参考来源和贡献者，遵守各项目的许可证。
+
+## 我在探索
+
+数据分析、统计建模、机器学习，以及 LLM Agent 的开发与安全。常用 Python、SQL 和相关数据科学工具。
+
+## 一些公开项目
 
 - [ai-agent-security-redteam](https://github.com/hccccc01333/ai-agent-security-redteam) — LLM Agent 安全评估与红队实验
 - [rogii-487th-place-solution](https://github.com/hccccc01333/rogii-487th-place-solution) — 井筒地质预测与机器学习建模
 - [KPLdata](https://github.com/hccccc01333/KPLdata) — KPL 比赛数据分析与预测
 - [dsh-excel-chat](https://github.com/hccccc01333/dsh-excel-chat) — 对话式 Excel 处理与验证
 
-## 开源与协作
+## 一起完善
 
-代码的价值不只在于完成一个项目，也在于让方法能够被理解、复现和改进。
+如果你发现问题、复现不出结果，或有更好的实现思路，欢迎在对应仓库发起 **Issue** 讨论。想直接改进代码或文档，也欢迎提交 **Pull Request**。
 
-欢迎通过 Issue 交流想法、反馈问题，或通过 Pull Request 共同完善项目。
+不必从大改动开始：指出一处错误、补充一个例子，同样是有价值的贡献。
 
-[个人网站](https://hccccc01333.github.io/) · [Kaggle](https://www.kaggle.com/afterrain42) · [更多仓库](https://github.com/hccccc01333?tab=repositories)
+[个人网站](https://hccccc01333.github.io/) · [Kaggle](https://www.kaggle.com/afterrain42) · [全部仓库](https://github.com/hccccc01333?tab=repositories)
