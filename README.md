@@ -25,6 +25,17 @@
 - **AI-assisted development** — 与 Codex 等 AI Coding 工具协作进行设计、实现与迭代。
 - **Verify the result** — 重视测试、评测、可复现性，以及技术方案的适用边界。
 
+## Open Source & Collaboration
+
+**欢迎体验、使用和参与改进这些项目。** 开源不只是展示成果，更希望让工具被真正使用、让问题被发现、让想法继续演进。
+
+- **Try it / Use it** — 欢迎按各仓库的 README 安装、运行、体验，并分享使用场景与反馈。
+- **Open an Issue** — 遇到 Bug、文档不清楚、兼容性问题，或有新功能想法，都欢迎提 Issue。
+- **Submit a PR** — 欢迎修复问题、补充测试、改进文档或实现功能；小贡献同样重要。
+- **Reproducible & respectful** — 尽量公开方法、限制和复现步骤；贡献与使用请遵循各仓库的 License，并尊重第三方数据及素材权益。
+
+**Feedback, issues and pull requests are always welcome.** Let's build and improve things together.
+
 ---
 
 [Website](https://hccccc01333.github.io/) · [Kaggle](https://www.kaggle.com/afterrain42) · [All repositories](https://github.com/hccccc01333?tab=repositories)
