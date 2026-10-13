@@ -13,7 +13,6 @@
 | **[dsh-excel-chat](https://github.com/hccccc01333/dsh-excel-chat)** · AI × Excel | 用自然语言操作 Excel；支持多步任务、公式检查与修复、变更对比和回滚。 |
 | **[dsh-eval](https://github.com/hccccc01333/dsh-eval)** · Agent Evaluation | 自动运行 Agent Benchmark，采集轨迹，评估任务成功率、工具调用、成本与延迟，并比较不同版本。 |
 | **[game-user-insights-agent](https://github.com/hccccc01333/game-user-insights-agent)** · Data + AI | 从公开游戏社区行为数据提取用户特征，分析沉默风险，并探索 Agent 决策与离线评测。 |
-| **[dsh-analytics](https://github.com/hccccc01333/dsh-analytics)** · Agent Analytics | 基于运行日志分析 Agent 的 Token、缓存、会话与成本。 |
 | **[ai-agent-security-redteam](https://github.com/hccccc01333/ai-agent-security-redteam)** · Agent Security | 多步工具调用安全测试、攻击用例设计与实验复现；Kaggle Bronze Medal。 |
 | **[taptap-hotspot-intel](https://github.com/hccccc01333/taptap-hotspot-intel)** · AI Automation | 游戏热点情报自动化系统：采集公开信号、分析热点并生成运营参考信息。 |
 
