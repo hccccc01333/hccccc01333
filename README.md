@@ -1,7 +1,5 @@
 # Rainfun | Data + AI · AI Agent · AI Evaluation
 
-**2027 届应用统计硕士｜AI 产品数据分析｜AI 辅助工程开发**
-
 我关注 **AI 如何真正解决数据与业务问题**：从提出需求、设计方案，到借助 Codex 等 AI Coding 工具实现，再通过数据分析、测试和评测验证效果。
 
 - **业务经验**：6 个月 AI 陪伴机器人及小程序的**产品数据分析**实习，围绕用户领养、训练、付费等链路开展用户分层、任务漏斗、NLP 文本与 AI 回复问题分析。
@@ -23,6 +21,6 @@
 
 ---
 
-*Applied Statistics M.S. candidate (Class of 2027). Experience in AI product analytics, AI-assisted application development, and LLM Agent evaluation.*
+*Experience in AI product analytics, AI-assisted application development, and LLM Agent evaluation.*
 
 [个人网站 / Website](https://hccccc01333.github.io/) · [Kaggle](https://www.kaggle.com/afterrain42) · [全部仓库 / Repositories](https://github.com/hccccc01333?tab=repositories)
