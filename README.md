@@ -1,26 +1,30 @@
-# Rainfun | Data + AI · AI Agent · AI Evaluation
+# Rainfun
 
-我关注 **AI 如何真正解决数据与业务问题**：从提出需求、设计方案，到借助 Codex 等 AI Coding 工具实现，再通过数据分析、测试和评测验证效果。
+**Building AI tools, agents & evaluation systems — with a data science mindset.**
 
-- **业务经验**：6 个月 AI 陪伴机器人及小程序的**产品数据分析**实习，围绕用户领养、训练、付费等链路开展用户分层、任务漏斗、NLP 文本与 AI 回复问题分析。
-- **技术方向**：Python / 数据科学 · LLM Agent · AI 应用开发 · Agent Evaluation。
-- **开发方式**：AI 辅助 Coding，重视需求定义、技术取舍、可复现性和结果验证。
+我喜欢把想法做成能运行的工具，也关注它们是否**可靠、可验证、可持续迭代**。
 
-## 精选 AI 项目 | Featured AI Projects
+主要在探索：**LLM Agents · AI Coding · Agent Evaluation · Data + AI**。
 
-| 项目 | 简介 |
+## Projects
+
+| Project | What it does |
 | --- | --- |
-| **[dsh-excel-chat](https://github.com/hccccc01333/dsh-excel-chat)** · AI × Excel | 让 Agent 通过自然语言操作 Excel，支持多步任务、公式检测与修复、修改对比及回滚。 |
-| **[dsh-eval](https://github.com/hccccc01333/dsh-eval)** · Agent Evaluation | Agent 自动化评测工具：Benchmark 执行、运行轨迹、任务成功率与成本指标、LLM Judge、版本对比。 |
-| **[game-user-insights-agent](https://github.com/hccccc01333/game-user-insights-agent)** · Data + AI | 基于公开游戏社区行为数据进行用户画像与沉默风险分析，并结合 Agent 决策和离线实验评测。 |
-| **[dsh-analytics](https://github.com/hccccc01333/dsh-analytics)** · Agent Analytics | 面向 Agent 运行过程的 Token 用量、缓存与成本分析，支持模型及会话维度查询。 |
-| **[ai-agent-security-redteam](https://github.com/hccccc01333/ai-agent-security-redteam)** · AI Security | Agent 工具调用安全评测与可复现红队实验；Kaggle 竞赛**铜牌**。 |
-| **[opencode-mobile](https://github.com/hccccc01333/opencode-mobile)** · AI Coding Tools | OpenCode 移动端客户端，围绕远程任务查看、权限审批、代码阅读与执行状态跟踪进行开发。 |
+| **[dsh-excel-chat](https://github.com/hccccc01333/dsh-excel-chat)** · AI × Excel | 用自然语言操作 Excel；支持多步任务、公式检查与修复、变更对比和回滚。 |
+| **[dsh-eval](https://github.com/hccccc01333/dsh-eval)** · Agent Evaluation | 自动运行 Agent Benchmark，采集轨迹，评估任务成功率、工具调用、成本与延迟，并比较不同版本。 |
+| **[game-user-insights-agent](https://github.com/hccccc01333/game-user-insights-agent)** · Data + AI | 从公开游戏社区行为数据提取用户特征，分析沉默风险，并探索 Agent 决策与离线评测。 |
+| **[dsh-analytics](https://github.com/hccccc01333/dsh-analytics)** · Agent Analytics | 基于运行日志分析 Agent 的 Token、缓存、会话与成本。 |
+| **[ai-agent-security-redteam](https://github.com/hccccc01333/ai-agent-security-redteam)** · Agent Security | 多步工具调用安全测试、攻击用例设计与实验复现；Kaggle Bronze Medal。 |
+| **[opencode-mobile](https://github.com/hccccc01333/opencode-mobile)** · Developer Tools | 面向 OpenCode 的移动客户端，支持任务跟踪、权限审批和代码查看。 |
 
-**更多探索**：[TapTap 热点情报 AI 系统](https://github.com/hccccc01333/taptap-hotspot-intel) · [SheetEvolve：Excel Agent 决策与评测](https://github.com/hccccc01333/sheetevolve) · [井筒地质预测建模（Kaggle 铜牌）](https://github.com/hccccc01333/rogii-487th-place-solution)
+**Also exploring:** [SheetEvolve](https://github.com/hccccc01333/sheetevolve)（Excel Agent 决策与评测） · [TapTap Hotspot Intel](https://github.com/hccccc01333/taptap-hotspot-intel)（游戏热点情报自动化） · [Context Policy Learning](https://github.com/hccccc01333/context-policy-learning)（Agent 上下文价值实验）
+
+## How I build
+
+- **Problem first** — 先明确要解决的问题，再选择工具和架构。
+- **AI-assisted development** — 与 Codex 等 AI Coding 工具协作进行设计、实现与迭代。
+- **Verify the result** — 重视测试、评测、可复现性，以及技术方案的适用边界。
 
 ---
 
-*Experience in AI product analytics, AI-assisted application development, and LLM Agent evaluation.*
-
-[个人网站 / Website](https://hccccc01333.github.io/) · [Kaggle](https://www.kaggle.com/afterrain42) · [全部仓库 / Repositories](https://github.com/hccccc01333?tab=repositories)
+[Website](https://hccccc01333.github.io/) · [Kaggle](https://www.kaggle.com/afterrain42) · [All repositories](https://github.com/hccccc01333?tab=repositories)
