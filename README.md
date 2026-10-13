@@ -15,9 +15,9 @@
 | **[game-user-insights-agent](https://github.com/hccccc01333/game-user-insights-agent)** · Data + AI | 从公开游戏社区行为数据提取用户特征，分析沉默风险，并探索 Agent 决策与离线评测。 |
 | **[dsh-analytics](https://github.com/hccccc01333/dsh-analytics)** · Agent Analytics | 基于运行日志分析 Agent 的 Token、缓存、会话与成本。 |
 | **[ai-agent-security-redteam](https://github.com/hccccc01333/ai-agent-security-redteam)** · Agent Security | 多步工具调用安全测试、攻击用例设计与实验复现；Kaggle Bronze Medal。 |
-| **[opencode-mobile](https://github.com/hccccc01333/opencode-mobile)** · Developer Tools | 面向 OpenCode 的移动客户端，支持任务跟踪、权限审批和代码查看。 |
+| **[taptap-hotspot-intel](https://github.com/hccccc01333/taptap-hotspot-intel)** · AI Automation | 游戏热点情报自动化系统：采集公开信号、分析热点并生成运营参考信息。 |
 
-**Also exploring:** [SheetEvolve](https://github.com/hccccc01333/sheetevolve)（Excel Agent 决策与评测） · [TapTap Hotspot Intel](https://github.com/hccccc01333/taptap-hotspot-intel)（游戏热点情报自动化） · [Context Policy Learning](https://github.com/hccccc01333/context-policy-learning)（Agent 上下文价值实验）
+**Also exploring:** [井筒地质预测建模](https://github.com/hccccc01333/rogii-487th-place-solution)（Kaggle 铜牌） · [Power BI 零售经营分析](https://github.com/hccccc01333/powerbi-retail-analysis)（BI 看板与指标建模）
 
 ## How I build
 
