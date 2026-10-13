@@ -1,37 +1,28 @@
-# Rainfun
+# Rainfun | Data + AI · AI Agent · AI Evaluation
 
-**Data Science · Machine Learning · LLM Agents**
+**2027 届应用统计硕士｜AI 产品数据分析｜AI 辅助工程开发**
 
-我关注数据分析、统计建模、机器学习与 LLM Agent 的开发和安全。在这里分享代码、实验记录，以及解决问题的过程。
+我关注 **AI 如何真正解决数据与业务问题**：从提出需求、设计方案，到借助 Codex 等 AI Coding 工具实现，再通过数据分析、测试和评测验证效果。
 
-I work on data science, machine learning, and LLM agent development and security. I share code, experiment notes, and what I learn along the way.
+- **业务经验**：6 个月 AI 陪伴机器人及小程序的**产品数据分析**实习，围绕用户领养、训练、付费等链路开展用户分层、任务漏斗、NLP 文本与 AI 回复问题分析。
+- **技术方向**：Python / 数据科学 · LLM Agent · AI 应用开发 · Agent Evaluation。
+- **开发方式**：AI 辅助 Coding，重视需求定义、技术取舍、可复现性和结果验证。
 
-## 开源理念 / Open Source
+## 精选 AI 项目 | Featured AI Projects
 
-**让工作能够被理解、复现和继续改进。** 开源不只是公开结果，也包括方法、局限和失败的尝试。
+| 项目 | 简介 |
+| --- | --- |
+| **[dsh-excel-chat](https://github.com/hccccc01333/dsh-excel-chat)** · AI × Excel | 让 Agent 通过自然语言操作 Excel，支持多步任务、公式检测与修复、修改对比及回滚。 |
+| **[dsh-eval](https://github.com/hccccc01333/dsh-eval)** · Agent Evaluation | Agent 自动化评测工具：Benchmark 执行、运行轨迹、任务成功率与成本指标、LLM Judge、版本对比。 |
+| **[game-user-insights-agent](https://github.com/hccccc01333/game-user-insights-agent)** · Data + AI | 基于公开游戏社区行为数据进行用户画像与沉默风险分析，并结合 Agent 决策和离线实验评测。 |
+| **[dsh-analytics](https://github.com/hccccc01333/dsh-analytics)** · Agent Analytics | 面向 Agent 运行过程的 Token 用量、缓存与成本分析，支持模型及会话维度查询。 |
+| **[ai-agent-security-redteam](https://github.com/hccccc01333/ai-agent-security-redteam)** · AI Security | Agent 工具调用安全评测与可复现红队实验；Kaggle 竞赛**铜牌**。 |
+| **[opencode-mobile](https://github.com/hccccc01333/opencode-mobile)** · AI Coding Tools | OpenCode 移动端客户端，围绕远程任务查看、权限审批、代码阅读与执行状态跟踪进行开发。 |
 
-**Make work understandable, reproducible, and open to improvement.** Sharing the process matters as much as sharing the outcome.
+**更多探索**：[TapTap 热点情报 AI 系统](https://github.com/hccccc01333/taptap-hotspot-intel) · [SheetEvolve：Excel Agent 决策与评测](https://github.com/hccccc01333/sheetevolve) · [井筒地质预测建模（Kaggle 铜牌）](https://github.com/hccccc01333/rogii-487th-place-solution)
 
-- **透明 / Transparency** — 记录思路、实验和不足；document decisions, experiments, and limitations.
-- **复现 / Reproducibility** — 说明环境、数据来源与依赖；describe environments, data sources, and dependencies.
-- **协作 / Collaboration** — 欢迎问题反馈、代码与文档贡献；welcome feedback, code, and documentation contributions.
-- **尊重 / Attribution** — 尊重贡献者、引用与许可证；credit contributors, cite sources, and respect licenses.
+---
 
-## 项目 / Projects
-
-- [ai-agent-security-redteam](https://github.com/hccccc01333/ai-agent-security-redteam) — LLM Agent 安全评估与红队研究 / Agent security evaluation and red-team research
-- [rogii-487th-place-solution](https://github.com/hccccc01333/rogii-487th-place-solution) — 井筒地质预测与建模 / Wellbore geology prediction and modeling
-- [KPLdata](https://github.com/hccccc01333/KPLdata) — 赛事数据分析与胜率预测 / Esports analytics and win-probability modeling
-- [dsh-excel-chat](https://github.com/hccccc01333/dsh-excel-chat) — 对话式 Excel 处理与验证 / Conversational Excel automation and validation
-
-## 参与共建 / Contributing
-
-发现 Bug、复现遇到困难、认为文档不够清楚，或有更好的实现思路？欢迎在相关仓库发起 **Issue** 或提交 **Pull Request**。小的修正也有价值。
-
-Found a bug, a reproducibility gap, unclear documentation, or a better approach? Open an **Issue** or submit a **Pull Request** to the relevant repository. Small improvements count, too.
-
-请以各项目的许可证、贡献指南和复现说明为准；公开代码不代表第三方数据和素材也可自由再分发。
-
-Please check each repository's license and available contribution/reproduction notes. Public code does not automatically grant rights to third-party data or assets.
+*Applied Statistics M.S. candidate (Class of 2027). Experience in AI product analytics, AI-assisted application development, and LLM Agent evaluation.*
 
 [个人网站 / Website](https://hccccc01333.github.io/) · [Kaggle](https://www.kaggle.com/afterrain42) · [全部仓库 / Repositories](https://github.com/hccccc01333?tab=repositories)
