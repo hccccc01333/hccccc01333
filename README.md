@@ -37,4 +37,4 @@
 
 ---
 
-[Website](https://hccccc01333.github.io/) · [Kaggle](https://www.kaggle.com/afterrain42) · [All repositories](https://github.com/hccccc01333?tab=repositories)
+[Email](mailto:rainfun446@gmail.com) · [Website](https://hccccc01333.github.io/) · [Kaggle](https://www.kaggle.com/afterrain42) · [All repositories](https://github.com/hccccc01333?tab=repositories)
