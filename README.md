@@ -1,40 +1,58 @@
+<div align="center">
+
 # Rainfun
 
-**Building AI tools, agents & evaluation systems — with a data science mindset.**
+**Applied Statistics · Data Science · Agent Engineering**
 
-我喜欢把想法做成能运行的工具，也关注它们是否**可靠、可验证、可持续迭代**。
+**I build AI systems that act, verify, and improve.**
 
-主要在探索：**LLM Agents · AI Coding · Agent Evaluation · Data + AI**。
+让 AI 不只给出答案，还能完成任务、检查结果，并从失败中改进。
 
-## Projects
+[Projects](#selected-projects) · [Research](#research--experiments) · [How I work](#how-i-build) · [Contact](#connect)
 
-| Project | What it does |
-| --- | --- |
-| **[dsh-excel-chat](https://github.com/hccccc01333/dsh-excel-chat)** · AI × Excel | 用自然语言操作 Excel；支持多步任务、公式检查与修复、变更对比和回滚。 |
-| **[dsh-eval](https://github.com/hccccc01333/dsh-eval)** · Agent Evaluation | 自动运行 Agent Benchmark，采集轨迹，评估任务成功率、工具调用、成本与延迟，并比较不同版本。 |
-| **[game-user-insights-agent](https://github.com/hccccc01333/game-user-insights-agent)** · Data + AI | 从公开游戏社区行为数据提取用户特征，分析沉默风险，并探索 Agent 决策与离线评测。 |
-| **[ai-agent-security-redteam](https://github.com/hccccc01333/ai-agent-security-redteam)** · Agent Security | 多步工具调用安全测试、攻击用例设计与实验复现；Kaggle Bronze Medal。 |
-| **[taptap-hotspot-intel](https://github.com/hccccc01333/taptap-hotspot-intel)** · AI Automation | 游戏热点情报自动化系统：采集公开信号、分析热点并生成运营参考信息。 |
+</div>
 
-**Also exploring:** [井筒地质预测建模](https://github.com/hccccc01333/rogii-487th-place-solution)（Kaggle 铜牌） · [Power BI 零售经营分析](https://github.com/hccccc01333/powerbi-retail-analysis)（BI 看板与指标建模）
+---
+
+### A little about me
+
+我关注 **数据科学与 AI Agent 的交叉地带**：把真实问题转化为可运行的系统，再用数据、实验和评测判断它是否真的有效。
+
+我尤其在意三件事：
+
+- **Make it work.** 让 Agent 能读懂任务、调用工具、完成多步骤操作。
+- **Make it verifiable.** 用确定性检查、执行轨迹和对照实验验证结果，而不是只相信模型的回答。
+- **Make it useful.** 从具体场景出发，让分析和算法最终服务于决策与产品。
+
+## Selected projects
+
+| Project | What I'm building |
+| :--- | :--- |
+| **[dsh-excel-chat](https://github.com/hccccc01333/dsh-excel-chat)**<br><sub>Agent × Spreadsheets</sub> | 用自然语言操作 Excel；重点不只是编辑表格，而是**公式体检、自动修复、变更对比与回滚**。 |
+| **[dsh-eval](https://github.com/hccccc01333/dsh-eval)**<br><sub>Agent Evaluation</sub> | 从 Benchmark、工具调用和执行轨迹中评估 Agent；支持**成功率、可靠性、成本及配对实验**分析。 |
+| **[kpl-scrim-lab-app](https://github.com/hccccc01333/kpl-scrim-lab-app)**<br><sub>Esports Data Product</sub> | 把训练赛截图、录屏和对局数据整理成**有来源、可核对的赛训复盘**，面向战队与教练组。 |
+| **[taptap-hotspot-intel](https://github.com/hccccc01333/taptap-hotspot-intel)**<br><sub>Research Agent</sub> | 从公开热点信号到证据检索、事件整理和游戏增长创意，探索**可溯源的研究型 Agent**。 |
+| **[game-user-insights-agent](https://github.com/hccccc01333/game-user-insights-agent)**<br><sub>Data Science × Agent</sub> | 从公开可观测行为构建用户特征、沉默风险分析与 Agent 决策流程，并用离线实验验证策略。 |
+
+## Research & experiments
+
+研究不只记录最终分数，也记录**失败的假设、实验口径和能力边界**。
+
+- **[KPL BP Agent](https://github.com/hccccc01333/kpl-bp-rl)** — 研究职业比赛 Ban/Pick 决策模仿、阵容评价和多步博弈；明确区分「与教练选择一致」和「能提高胜率」。
+- **[KPL Research](https://github.com/hccccc01333/kpl-research)** — 从赛事数据采集到特征、预测与可视化复盘的完整分析项目。
+- **[ROGII Geology Prediction](https://github.com/hccccc01333/rogii-487th-place-solution)** — Kaggle Private Leaderboard **487 / 6,125（Top 8%）**；多源序列回归与稳健验证。
+- **[AI Agent Security Red Team](https://github.com/hccccc01333/ai-agent-security-redteam)** — Kaggle **Bronze Medal**；多步骤 Agent 安全实验、复现与结果分析。
 
 ## How I build
 
-- **Problem first** — 先明确要解决的问题，再选择工具和架构。
-- **AI-assisted development** — 与 Codex 等 AI Coding 工具协作进行设计、实现与迭代。
-- **Verify the result** — 重视测试、评测、可复现性，以及技术方案的适用边界。
+`Define the problem → Establish a baseline → Build → Evaluate → Inspect failures → Iterate`
 
-## Open Source & Collaboration
+常用 **Python、SQL、TypeScript、React**，结合统计推断、机器学习、工具调用和 Agent 工作流解决实际问题。
 
-**欢迎体验、使用和参与改进这些项目。** 开源不只是展示成果，更希望让工具被真正使用、让问题被发现、让想法继续演进。
+我倾向于公开可运行的代码、数据口径、实验方法和已知限制；一个项目是否有价值，最终要看它**能否解决问题，以及结论能否复现**。
 
-- **Try it / Use it** — 欢迎按各仓库的 README 安装、运行、体验，并分享使用场景与反馈。
-- **Open an Issue** — 遇到 Bug、文档不清楚、兼容性问题，或有新功能想法，都欢迎提 Issue。
-- **Submit a PR** — 欢迎修复问题、补充测试、改进文档或实现功能；小贡献同样重要。
-- **Reproducible & respectful** — 尽量公开方法、限制和复现步骤；贡献与使用请遵循各仓库的 License，并尊重第三方数据及素材权益。
+## Connect
 
-**Feedback, issues and pull requests are always welcome.** Let's build and improve things together.
-
----
+欢迎交流 **AI Agents、评测体系、数据科学、开源工具和游戏数据分析**。Issue、PR 和建设性反馈都很有价值。
 
 [Email](mailto:rainfun446@gmail.com) · [Website](https://hccccc01333.github.io/) · [Kaggle](https://www.kaggle.com/afterrain42) · [All repositories](https://github.com/hccccc01333?tab=repositories)
