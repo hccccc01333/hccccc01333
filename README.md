@@ -80,6 +80,8 @@
 - **[KPL Scrim Lab](https://github.com/hccccc01333/kpl-scrim-lab-app)** — 本地赛训数据平台；对局采集、OCR 核对、数据溯源、选手/英雄分析、BP 与训练赛复盘。
 - **[KPL Research](https://github.com/hccccc01333/kpl-research)** — 从赛事数据采集到比赛预测、战队/选手比较、时间序列分析与复盘的研究项目。
 - **[KPL Data Site](https://github.com/hccccc01333/KPLdata-site)** — 上述研究的交互展示端；[在线体验](https://hccccc01333.github.io/KPLdata-site/)。
+- **[KPL Scrim Lab Site](https://github.com/hccccc01333/kpl-scrim-lab-site)** — 赛训数据平台的官网与下载、指南页；纯静态站点，产品本身在本机运行。
+- **[KPL Tools Portal](https://github.com/hccccc01333/hccccc01333.github.io)** — KPL 赛训工具官网入口，汇总训练赛数据分析平台与相关工具。
 
 **持续探索：** Ban/Pick 决策建模、序列决策、多步搜索和强化学习。研究中会刻意区分**模仿专家决策**与**提高真实胜率**这两类不同目标。
 
@@ -95,7 +97,11 @@
 - **[Codex DeepSeek Mini-Router](https://github.com/hccccc01333/codex-deepseek-mini-router)** — 面向不同任务的模型提示与路由实验，附对照基线。
 - **[Codex Bridge Toolkit](https://github.com/hccccc01333/codex-bridge-toolkit)** — 将网页端模型的规划与本地 Codex / OpenCode 执行连接起来。
 - **[ContextRelay](https://github.com/hccccc01333/trae-context-relay)** — 基于 Git 和文件证据实现 AI Coding 跨会话状态交接与恢复。
+- **[DSH Analytics](https://github.com/hccccc01333/dsh-analytics)** — DeepSeek Harness 的 Agent FinOps / token 用量分析插件：本地账本、时间感知定价与成本查询。
+- **[DSH Report Card](https://github.com/hccccc01333/dsh-report-card)** — 为 DeepSeek Harness 增加交互式 HTML 报告渲染能力的功能分支。
 - **[awesome-dsh-plugin](https://github.com/hccccc01333/awesome-dsh-plugin)** — DeepSeek Harness 插件生态整理与社区资源索引。
+
+**生态索引（Fork）：** [DeepSeek Harness](https://github.com/hccccc01333/deepseek-harness) · [Awesome DeepSeek Harness](https://github.com/hccccc01333/awesome-deepseek-harness) · [Awesome Codex Plugins](https://github.com/hccccc01333/awesome-codex-plugins) · [Awesome Codex CLI](https://github.com/hccccc01333/awesome-codex-cli) · [Awesome Codex CLI (milisp)](https://github.com/hccccc01333/awesome-codex-cli-milisp) —— 均为上游项目的 Fork，用于跟进、同步与贡献，不代表原创项目。
 
 ---
 
@@ -108,5 +114,5 @@
 欢迎通过相关仓库的 **Issues / Pull Requests** 交流具体问题、复现结果与改进建议。
 
 <div align="center">
-  <sub><a href="https://github.com/hccccc01333?tab=repositories">Explore all repositories</a> · <a href="mailto:rainfun446@gmail.com">Contact</a></sub>
+  <sub><a href="https://github.com/hccccc01333?tab=repositories">Explore all repositories</a> · <a href="https://github.com/hccccc01333/hccccc01333">Profile source</a> · <a href="mailto:rainfun446@gmail.com">Contact</a></sub>
 </div>
